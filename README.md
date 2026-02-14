@@ -103,33 +103,35 @@ Unity3D 기반 상용 모바일 게임 개발 및 출시 경험
 
 # 🎮 Additional Gameplay Projects (Unity)
 
-> 상세 구현 내용은 각 GitHub Repository에서 확인 가능합니다.
-
-## 🐉 Pokemon: Scarlet (Personal Project)
-
-> 3D 오픈월드 RPG 게임 프로젝트  
->
-> • 기간: 2023.06 ~ 2023.07  
-> • 환경: Unity3D, C#  
-> • 역할: AI 상태 패턴, 인벤토리, 전체 시스템 구현  
-> • GitHub: https://github.com/HaloTwo/Pokemon  
+> 상세 구현 내용 및 코드 구조는 각 GitHub Repository에서 확인 가능합니다.  
+> (※ 시스템/전투 중심 구현 프로젝트)
 
 ## 🤖 Nier: Automata (Team Project)
 
-> 3D 액션 어드벤쳐 게임 프로젝트  
+> Enemy AI, Boss 패턴, 전투 시스템 구현 중심 3D 액션 프로젝트  
 >
 > • 기간: 2023.05 ~ 2023.06  
 > • 환경: Unity3D, C#  
 > • 역할: Enemy AI, Boss 패턴, 전투 시스템 구현  
-> • GitHub: https://github.com/HaloTwo/Nier-Automata  
+> • Repository: [GitHub](https://github.com/HaloTwo/Nier-Automata)  
 
 ## 🧁 Cuphead (Personal Project)
 
-> 2D 플랫포머 액션 게임 프로젝트
+> 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
 >
 > • 기간: 2023.04 ~ 2023.04  
 > • 환경: Unity2D, C#  
 > • 역할: 보스 패턴, 전투 시스템, UI 구현  
-> • GitHub: https://github.com/HaloTwo/Cuphead  
+> • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)  
+
+## 🐉 Pokemon: Scarlet (Personal Project)
+
+> 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
+>
+> • 기간: 2023.06 ~ 2023.07  
+> • 환경: Unity3D, C#  
+> • 역할: AI 상태 패턴, 인벤토리, 데이터 구조 및 전체 시스템 구현  
+> • Repository: [GitHub](https://github.com/HaloTwo/Pokemon)  
+
 
 

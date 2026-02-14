@@ -28,24 +28,26 @@
 
 ---
 
-# 🧠 Main Project 
+# ⚔️ Unreal Engine 5 Project
 
 ## ⚔️ UE5 Action RPG (Lies of P Inspired)
-Gameplay Ability System(GAS) 기반 싱글플레이 액션 전투 시스템 프로젝트
 
-- Engine: Unreal Engine 5 (C++ / Blueprint)
-- Focus: Combat System / AI / Gameplay Architecture
-- 💻 GitHub: [프로젝트 상세 설명](https://github.com/HaloTwo/LOP)
+> Gameplay Ability System(GAS) 기반 싱글플레이 액션 전투 시스템 구현 프로젝트  
+> 전투, AI, 게임플레이 아키텍처 구조 설계 중심  
+>
+> • 기간: 2025.07 ~ 2025.09  
+> • 엔진: Unreal Engine 5 (C++ / Blueprint)  
+> • 중점: Combat System / AI / Gameplay Architecture  
+> • Repository: [GitHub](https://github.com/HaloTwo/LOP)  
 
-### Core Features
+### 🔧 Core Implementation
 - Gameplay Ability System(GAS) 기반 전투 시스템 설계
 - Target Lock-On 시스템 구현
 - Weapon Trace 기반 공격 판정 처리
-- Behavior Tree + EQS 기반 적 AI
-- Boss Phase 패턴 전환 시스템
-- Motion Warping + Anim Notify 전투 연출
-- DataAsset 기반 무기/스킬 데이터 구조 설계
-
+- Behavior Tree + EQS 기반 적 AI 설계
+- Boss Phase 패턴 전환 시스템 구현
+- Motion Warping + Anim Notify 기반 전투 연출
+- DataAsset 기반 무기 / 스킬 데이터 구조 설계
 ---
 
 # 💼 Experience
@@ -106,6 +108,16 @@ Unity3D 기반 상용 모바일 게임 개발 및 출시 경험
 > 상세 구현 내용 및 코드 구조는 각 GitHub Repository에서 확인 가능합니다.  
 > (※ 시스템/전투 중심 구현 프로젝트)
 
+## 🐉 Pokemon: Scarlet (Personal Project)
+
+> 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
+>
+> • 기간: 2023.06 ~ 2023.07  
+> • 환경: Unity3D, C#  
+> • 역할: AI 상태 패턴, 인벤토리, 데이터 구조 및 전체 시스템 구현  
+> • Repository: [GitHub](https://github.com/HaloTwo/Pokemon)  
+
+
 ## 🤖 Nier: Automata (Team Project)
 
 > Enemy AI, Boss 패턴, 전투 시스템 구현 중심 3D 액션 프로젝트  
@@ -124,14 +136,6 @@ Unity3D 기반 상용 모바일 게임 개발 및 출시 경험
 > • 역할: 보스 패턴, 전투 시스템, UI 구현  
 > • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)  
 
-## 🐉 Pokemon: Scarlet (Personal Project)
-
-> 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
->
-> • 기간: 2023.06 ~ 2023.07  
-> • 환경: Unity3D, C#  
-> • 역할: AI 상태 패턴, 인벤토리, 데이터 구조 및 전체 시스템 구현  
-> • Repository: [GitHub](https://github.com/HaloTwo/Pokemon)  
 
 
 

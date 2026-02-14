@@ -106,7 +106,7 @@
 
 ---
 
-# 🎮 Projects (Unity)
+# 🎮 Projects
 
 > 상세 구현 내용 및 코드 구조는 각 GitHub Repository에서 확인 가능합니다.  
 > (※ 시스템/전투 중심 구현 프로젝트)

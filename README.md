@@ -28,7 +28,7 @@
 
 
 ---
-## ⚔️ UE5 Action RPG (Souls-like Combat Project)
+## ⚔️ Unreal Project (Souls-like Combat Project / Action RPG Project)
 
 > Lies of P에서 영감을 받은 GAS 기반 3D 액션 전투 시스템 구현 프로젝트  
 > 전투, AI, 게임플레이 아키텍처 구조 설계 중심

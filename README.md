@@ -140,6 +140,8 @@
 > • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)  
 > • Video: [Youtube](https://youtu.be/5bR0k2nC6nk)  
 
+---
+
 # 🎓 Education & Training
 
 - 경일게임아카데미 Unity 게임 프로그래밍 양성과정 수료  

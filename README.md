@@ -1,7 +1,7 @@
-# 🎮 이수민 | Game Client Programmer (Unity / Unreal)
+# 🎮 이수민 | Action Gameplay Programmer (Unreal Engine 5)
 
-> 상용 게임 클라이언트 및 코어 로직 개발 경험을 바탕으로  
-> 액션 게임의 전투, 캐릭터, 시스템 구현에 집중하는 프로그래머입니다.
+> 상용 게임 클라이언트 및 코어 로직 개발 경험을 기반으로  
+> 액션 게임의 전투 시스템, AI, 게임플레이 구조 구현에 집중하는 프로그래머입니다.
 
 📧 Email: lsm6265@naver.com  
 🧑‍💻 GitHub: <GITHUB_LINK>  
@@ -9,93 +9,63 @@
 
 ---
 
-# 💼 Work Experience
+# 🧠 Main Project (Unreal Engine 5)
 
-## ALBUS | Client Programmer (2023.09 ~ 2025.02)
+## ⚔️ UE5 Action RPG (Lies of P Inspired)
+Gameplay Ability System(GAS) 기반 싱글플레이 액션 전투 시스템 프로젝트
 
-하이퍼 캐주얼 모바일 게임 상용 프로젝트 개발 참여  
-(Unity3D, C#, Firebase, Google API)
+- Engine: Unreal Engine 5 (C++ / Blueprint)
+- Focus: Combat System / AI / Gameplay Architecture
+- 💻 GitHub: [Repository](https://github.com/HaloTwo/LOP)
 
-### 주요 개발 기능
+### Core Features
+- Gameplay Ability System(GAS) 기반 전투 시스템 설계
+- Target Lock-On 시스템 구현
+- Weapon Trace 기반 공격 판정 처리
+- Behavior Tree + EQS 기반 적 AI
+- Boss Phase 패턴 전환 시스템
+- Motion Warping + Anim Notify 전투 연출
+- DataAsset 기반 무기/스킬 데이터 구조 설계
+
+---
+
+# 💼 Commercial Experience (Released Games)
+
+ALBUS | Client Programmer (2023.09 ~ 2025.02)  
+Unity3D 기반 상용 모바일 게임 개발 및 출시 경험
+
+- 🏝 WaterParkBoys  
+  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
+
+- 🎡 AwesomePark : Idle Game  
+  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark&hl=ko) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
+
+- 🛼 Skate Shop: Roller Disco Dance  
+  📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
+
+- 👑 MakeAQueen (Android Only)  
+  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens&hl=ko)
+
+### Key Contributions
 - 코어 게임 로직 시스템 개발
-- NPC/손님 이동 로직 설계 및 구현
-- 이벤트 트리거 시스템 개발
-- 건물 기능별 상태 로직 구조화
-- 오프라인 보상 데이터 자동 보정 시스템 구현
-- 오브젝트 풀링 및 컴포넌트 풀 시스템 개발
+- NPC 이동 및 행동 로직 구현
+- 이벤트 트리거 시스템 설계
+- 오프라인 보상 데이터 보정 시스템 개발
+- Object Pool + Component Pool 직접 구현
+- 비동기 데이터 처리 및 데이터 연동 (Google Sheet API)
 - 커스텀 에디터 툴 제작
-- 광고 시스템 연동 (Reward, Interstitial, Banner)
-- Google Sheet 기반 데이터 관리 시스템 연동
-- 비동기 데이터 처리 로직 구현
 
 ---
 
-# 🧠 Key Problem Solving
+# 🎮 Additional Gameplay Projects (Unity)
 
-## 1. 오프라인 보상 데이터 보정 시스템
-### Problem
-앱 종료 후 복귀 시 데이터 불일치 및 보상 오류 발생
+> 액션 및 게임플레이 시스템 중심 개인 프로젝트
 
-### Solution
-- 서버 시간 기반 데이터 계산 로직 재설계
-- 저장 데이터 자동 보정 시스템 구현
+- Nier: Automata (Enemy / Boss / Combat 구현)  
+  💻 [GitHub](https://github.com/HaloTwo/Nier-Automata)
 
-### Result
-- 데이터 정합성 문제 해결
-- 유저 보상 로직 안정화
+- Cuphead (2D 보스 전투 및 액션 시스템)  
+  💻 [GitHub](https://github.com/HaloTwo/Cuphead)
 
----
-
-## 2. 오브젝트 풀링 시스템 직접 구현
-### Problem
-다수의 NPC/오브젝트 생성으로 인한 성능 저하
-
-### Solution
-- Object Pool + Component Pool 구조 설계
-- 재사용 기반 메모리 관리 시스템 구현
-
-### Result
-- 런타임 GC 감소
-- 성능 안정화
-
----
-
-# 🕹 Unreal Engine Projects (Focus)
-
-> Unreal Engine 기반 개인 프로젝트  
-> (클라이언트 시스템 / 구조 설계 중심)
-
-(여기에 너가 줄 언리얼 프로젝트 넣음)
-
----
-
-# 🚀 Commercial Release Experience
-
-4개의 상용 모바일 게임 출시 참여  
-- 3종: Android / iOS 출시
-- 1종: Android 출시
-
----
-
-## 🏝 WaterParkBoys
-- Platform: Android / iOS  
-- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)  
-- Role: Client Programmer (Core Logic / System)
-
-## 🎡 AwesomePark : Idle Game
-- Platform: Android / iOS  
-- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark&hl=ko) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)  
-- Role: Client Programmer (Core Logic)
-
-## 🛼 Skate Shop: Roller Disco Dance
-- Platform: Android / iOS
-- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)  
-- Role: Client Programmer (Full Programming)
-
-## 👑 MakeAQueen
-- Platform: Android Only  
-- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens&hl=ko)  
-- Role: Client Programmer (Full Programming)
-
-※ 상용 프로젝트로 상세 코드는 공개하지 않고  
-   기능 구현 및 문제 해결 중심으로 정리했습니다.
+- Pokemon: Scarlet (AI 상태 패턴 및 시스템 구현)  
+  💻 [GitHub](https://github.com/HaloTwo/Pokemon)

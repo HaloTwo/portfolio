@@ -33,7 +33,7 @@
 > 전투, AI, 게임플레이 아키텍처 구조 설계 중심
 >
 > • 기간: 2025.07 ~ 2025.09  
-> • 엔진: Unreal Engine 5 (C++ / Blueprint)  
+> • 엔진: Unreal Engine 5.4.4 (C++ / Blueprint)  
 > • 중점: Combat System / AI / Gameplay Architecture  
 > • Repository: [GitHub](https://github.com/HaloTwo/LOP)  
 
@@ -114,7 +114,7 @@
 > 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
 >
 > • 기간: 2023.06 ~ 2023.07  
-> • 환경: Unity3D, C#  
+> • 환경: Unity3D, C#, Github
 > • 역할: AI 상태 패턴, 인벤토리, 데이터 구조 및 전체 시스템 구현  
 > • Repository: [GitHub](https://github.com/HaloTwo/Pokemon)  
 
@@ -124,7 +124,7 @@
 > Enemy AI, Boss 패턴, 전투 시스템 구현 중심 3D 액션 프로젝트  
 >
 > • 기간: 2023.05 ~ 2023.06  
-> • 환경: Unity3D, C#  
+> • 환경: Unity3D, C#, Github
 > • 역할: Enemy AI, Boss 패턴, 전투 시스템 구현  
 > • Repository: [GitHub](https://github.com/HaloTwo/Nier-Automata)  
 
@@ -133,7 +133,7 @@
 > 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
 >
 > • 기간: 2023.04 ~ 2023.04  
-> • 환경: Unity2D, C#  
+> • 환경: Unity2D, C#, Github
 > • 역할: 보스 패턴, 전투 시스템, UI 구현  
 > • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)  
 

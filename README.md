@@ -28,7 +28,7 @@
 
 
 ---
-## ⚔️ Unreal Project (Souls-like Combat Project / Action RPG Project)
+# ⚔️ Unreal Project (Action RPG Project)
 
 > Lies of P에서 영감을 받은 GAS 기반 3D 액션 전투 시스템 구현 프로젝트  
 > 전투, AI, 게임플레이 아키텍처 구조 설계 중심
@@ -39,7 +39,7 @@
 > • Repository: [GitHub](https://github.com/HaloTwo/LOP)  
 > • Video: [Youtube](https://youtu.be/6_0rvUXyf8w)  
 
-### 🔧 Core Implementation
+## 🔧 Core Implementation
 - Gameplay Ability System(GAS) 기반 전투 시스템 설계
 - Target Lock-On 시스템 구현
 - Weapon Trace 기반 공격 판정 처리

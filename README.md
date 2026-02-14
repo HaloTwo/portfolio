@@ -49,20 +49,25 @@
 
 # 💼 Experience
 
-ALBUS | Unity Client Programmer (2023.09 ~ 2025.03)  
-Unity3D 기반 상용 하이퍼 캐주얼 모바일 게임 개발 및 출시 경험
+## ALBUS | Unity Client Programmer  
+2023.09 ~ 2025.03  
 
-- 1. WaterParkBoys  
-  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
+> 상용 모바일 게임 4종 출시 참여  
+> (3종 iOS/Android, 1종 Android)
 
-- 2. AwesomePark : Idle Game  
-  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark&hl=ko) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
+### 🎮 Released Games
+- 🏝 WaterParkBoys  
+  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
 
-- 3. Skate Shop: Roller Disco Dance  
-  📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
+- 🎡 AwesomePark : Idle Game  
+  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
 
-- 4. MakeAQueen 
-  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens&hl=ko)
+- 🛼 Skate Shop: Roller Disco Dance  
+  📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
+
+- 👑 MakeAQueen (Android Only)  
+  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)
+
 
 ### 🔧 Core System Development
 - 코어 게임 로직 아키텍처 설계 및 기능 구현

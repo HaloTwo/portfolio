@@ -53,7 +53,6 @@
 2023.09 ~ 2025.03  
 
 > 상용 모바일 게임 4종 출시 참여  
-> (3종 iOS/Android, 1종 Android)
 
 ### 🎮 Released Games
 - 🏝 WaterParkBoys  
@@ -65,7 +64,7 @@
 - 🛼 Skate Shop: Roller Disco Dance  
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
 
-- 👑 MakeAQueen (Android Only)  
+- 👑 MakeAQueen
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)
 
 

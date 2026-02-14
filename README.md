@@ -3,7 +3,7 @@ README.md (Portfolio)
 Author: <YOUR_NAME>
 ========================= -->
 
-# 🧩 <YOUR_NAME> | Game Client Programmer (Unreal / Unity)
+# 🧩 이수민 | Game Client Programmer (Unreal / Unity)
 
 > **7초 요약**  
 > - **엔진:** Unreal Engine 5 (C++/Blueprint), Unity (C#)  
@@ -14,8 +14,7 @@ Author: <YOUR_NAME>
 - 📄 Resume (PDF): <RESUME_LINK>
 - 🧱 Portfolio (Notion/Website): <PORTFOLIO_LINK>
 - 🧑‍💻 GitHub: <GITHUB_LINK>
-- ✉️ Email: <EMAIL>
-- 🔗 LinkedIn (선택): <LINKEDIN_LINK>
+- ✉️ Email: <lsm6265@naver.com>
 
 ---
 
@@ -24,14 +23,12 @@ Author: <YOUR_NAME>
 - (예) **GAS/Ability** 구조화로 스킬 확장 비용 감소 및 밸런싱 워크플로우 개선
 - (예) **프로파일링 기반 최적화**로 특정 구간 FPS 드랍 원인 제거
 
-> 숫자/지표가 있으면 최강. 없으면 “감소/개선/안정화”라도 써.
-
 ---
 
 ## 🧰 Tech Stack
-- **Unreal:** C++, Blueprint, UMG, GAS(선택), Replication/RPC, Dedicated Server(선택), Gameplay Framework
-- **Unity:** C#, URP(선택), Addressables(선택), Timeline(선택)
-- **Tools:** Visual Studio / Rider, Perforce/Git, Jira/Notion
+- **Unreal:** C++, Blueprint, UMG, GAS, Replication/RPC, Dedicated Server, Gameplay Framework
+- **Unity:** C#, URP, Addressables, Timeline
+- **Tools:** Visual Studio, Git, Notion, Slack
 - **Etc:** Profiling(Stat/Insights), Build/Packaging, CI(선택)
 
 ---

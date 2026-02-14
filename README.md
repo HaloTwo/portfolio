@@ -27,13 +27,10 @@
 
 
 ---
+## ⚔️ UE5 Action RPG (Souls-like Combat Project)
 
-# ⚔️ Unreal Engine 5 Project
-
-## ⚔️ UE5 Action RPG (Lies of P Inspired)
-
-> Gameplay Ability System(GAS) 기반 싱글플레이 액션 전투 시스템 구현 프로젝트  
-> 전투, AI, 게임플레이 아키텍처 구조 설계 중심  
+> Lies of P에서 영감을 받은 GAS 기반 3D 액션 전투 시스템 구현 프로젝트  
+> 전투, AI, 게임플레이 아키텍처 구조 설계 중심
 >
 > • 기간: 2025.07 ~ 2025.09  
 > • 엔진: Unreal Engine 5 (C++ / Blueprint)  

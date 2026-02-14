@@ -74,7 +74,9 @@
 - WaterParkBoys — Google Play / App Store 출시
 - AwesomePark : Idle Game — Google Play / App Store 출시
 - RollerDisco — Google Play / App Store 출시
-- MakeAQueen — Google Play 출시 
+- 
+- MakeAQueen — Google Play 출시
+- Store: https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens&hl=ko
 
 ※ 상용 프로젝트로 상세 코드는 공개하지 않고  
    기능 구현 및 문제 해결 중심으로 정리했습니다.

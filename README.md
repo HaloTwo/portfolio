@@ -36,7 +36,8 @@
 > • 기간: 2025.07 ~ 2025.09  
 > • 엔진: Unreal Engine 5.4.4 (C++ / Blueprint)  
 > • 중점: Combat System / AI / Gameplay Architecture  
-> • Repository: [GitHub](https://github.com/HaloTwo/LOP)  
+> • Repository: [GitHub](https://github.com/HaloTwo/LOP)
+> • Video: [Youtube](https://youtu.be/6_0rvUXyf8w)  
 
 ### 🔧 Core Implementation
 - Gameplay Ability System(GAS) 기반 전투 시스템 설계

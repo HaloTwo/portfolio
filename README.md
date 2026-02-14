@@ -87,14 +87,15 @@
 - 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark&hl=ko) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)  
 - Role: Client Programmer (Core Logic)
 
-## 🛼 RollerDisco
-- Platform: Android / iOS  
+## 🛼 Skate Shop: Roller Disco Dance
+- Platform: Android / iOS
+- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)  
 - Role: Client Programmer (Full Programming)
 
 ## 👑 MakeAQueen
 - Platform: Android Only  
 - 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens&hl=ko)  
-- Role: Sole Client Programmer
+- Role: Client Programmer (Full Programming)
 
 ※ 상용 프로젝트로 상세 코드는 공개하지 않고  
    기능 구현 및 문제 해결 중심으로 정리했습니다.

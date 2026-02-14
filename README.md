@@ -69,15 +69,32 @@
 
 ---
 
-# 📱 Commercial Projects (Released)
+# 🚀 Commercial Release Experience
 
-- WaterParkBoys — Google Play / App Store 출시
-- Store: [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys&hl=ko) | [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
+4개의 상용 모바일 게임 출시 참여  
+- 3종: Android / iOS 출시
+- 1종: Android 출시
+
+---
+
+## 🏝 WaterParkBoys
+- Platform: Android / iOS  
+- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)  
 - Role: Client Programmer (Core Logic / System)
-- AwesomePark : Idle Game — Google Play / App Store 출시
-- RollerDisco — Google Play / App Store 출시
-- MakeAQueen — Google Play 출시
-- Store: [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens&hl=ko)
+
+## 🎡 AwesomePark : Idle Game
+- Platform: Android / iOS  
+- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark&hl=ko) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)  
+- Role: Client Programmer (Core Logic)
+
+## 🛼 RollerDisco
+- Platform: Android / iOS  
+- Role: Client Programmer (Full Programming)
+
+## 👑 MakeAQueen
+- Platform: Android Only  
+- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens&hl=ko)  
+- Role: Sole Client Programmer
 
 ※ 상용 프로젝트로 상세 코드는 공개하지 않고  
    기능 구현 및 문제 해결 중심으로 정리했습니다.

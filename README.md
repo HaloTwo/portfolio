@@ -110,10 +110,10 @@ Unity3D 기반 상용 모바일 게임 개발 및 출시 경험
 ## 🤖 Nier: Automata (Team Project)
 3D 액션 전투 및 Enemy / Boss AI 구현 프로젝트  
 
-- 기간: 2023.05 ~ 2023.06  
-- 환경: Unity3D, C#  
-- 역할: Enemy / Boss / 전투 시스템 구현  
-- GitHub: https://github.com/HaloTwo/Nier-Automata  
+>- 기간: 2023.05 ~ 2023.06  
+>- 환경: Unity3D, C#  
+>- 역할: Enemy / Boss / 전투 시스템 구현  
+>- GitHub: https://github.com/HaloTwo/Nier-Automata  
 ---
 
 ## 🧁 Cuphead (Personal Project)

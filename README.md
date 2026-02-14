@@ -1,4 +1,4 @@
-<img width="763" height="355" alt="image" src="https://github.com/user-attachments/assets/e9703cbd-cf9b-4e38-b992-c345fdf57b32" /># 🎮 이수민 | Game Programmer 
+# 🎮 이수민 | Game Programmer 
 
 > 상용 게임 클라이언트 및 코어 로직 개발 경험을 기반으로  
 > 액션 게임의 전투 시스템, AI, 게임플레이 구조 구현에 집중하는 프로그래머입니다.
@@ -103,30 +103,34 @@ Unity3D 기반 상용 모바일 게임 개발 및 출시 경험
 
 # 🎮 Additional Gameplay Projects (Unity)
 
-> 상세 구현 및 시스템 구조는 각 GitHub Repository에 정리되어 있습니다.
-
----
-
 ## 🤖 Nier: Automata (Team Project)
-3D 액션 전투 및 Enemy / Boss AI 구현 프로젝트  
 
->- 기간: 2023.05 ~ 2023.06  
->- 환경: Unity3D, C#  
->- 역할: Enemy / Boss / 전투 시스템 구현  
->- GitHub: https://github.com/HaloTwo/Nier-Automata  
+> 3D 액션 전투 게임 모작 프로젝트  
+> Enemy AI, Boss 패턴, 전투 시스템 구현 중심
+
+- 기간: 2023.05 ~ 2023.06  
+- 환경: Unity3D, C#  
+- 역할: Enemy / Boss / Combat System 구현  
+- GitHub: https://github.com/HaloTwo/Nier-Automata  
+
 ---
 
 ## 🧁 Cuphead (Personal Project)
-2D 보스 전투 중심 액션 시스템 구현  
+
+> 2D 보스 전투 중심 액션 시스템 구현 프로젝트  
+> 패턴 기반 보스 전투 및 전투 연출 구현
 
 - 기간: 2023.04 ~ 2023.04  
 - 환경: Unity2D, C#  
 - 역할: 보스 패턴, 전투 시스템, UI 구현  
 - GitHub: https://github.com/HaloTwo/Cuphead  
+
 ---
 
 ## 🐉 Pokemon: Scarlet (Personal Project)
-상태 패턴 기반 AI 및 게임 시스템 구현 프로젝트  
+
+> 상태 패턴 기반 AI 및 시스템 설계 중심 프로젝트  
+> 전체 게임 시스템 및 데이터 구조 직접 구현
 
 - 기간: 2023.06 ~ 2023.07  
 - 환경: Unity3D, C#  

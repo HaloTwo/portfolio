@@ -63,7 +63,7 @@
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
 
   <details>
-  <summary>📷이미지</summary>
+  <summary>📷이미지 펼치기/닫기</summary>
 
   <img src="Image/WaterParkBoys.png" width="700"/>
 
@@ -73,7 +73,7 @@
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
 
   <details>
-  <summary>📷이미지</summary>
+  <summary>📷이미지 펼치기/닫기</summary>
 
   <img src="Image/AwesomePark.png" width="700"/>
 
@@ -84,7 +84,7 @@
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
 
   <details>
-  <summary>📷이미지</summary>
+  <summary>📷이미지 펼치기/닫기</summary>
 
   <img src="Image/RollerDisco.png" width="700"/>
 
@@ -95,7 +95,7 @@
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)
 
   <details>
-  <summary>📷이미지</summary>
+  <summary>📷이미지 펼치기/닫기</summary>
 
   <img src="Image/MakeaQueen.png" width="700"/>
 

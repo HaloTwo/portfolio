@@ -8,8 +8,9 @@
 # 👋 About Me
 
 > 상용 모바일 게임 클라이언트 및 코어 로직 개발 경험을 가진 프로그래머입니다.  
-> Unity 실무 경험을 바탕으로 현재는 Unreal Engine 5 기반 액션 전투 시스템과 게임플레이 구조 설계에 집중하고 있습니다.
-> 팀 협업을 중요하게 생각하며, 문제를 구조적으로 분석하고 시스템 단위로 해결하는 개발 방식을 지향합니다.
+> Unity 실무 경험을 기반으로 Unreal Engine 5에서 액션 전투 시스템과 AI 구조 설계에 집중하고 있습니다.  
+> 특히 액션 RPG 장르의 전투 구조와 플레이 감각 구현에 관심이 있으며,  
+> 완성도 높은 게임플레이 경험을 만드는 개발자가 되는 것을 목표로 하고 있습니다.
 
 ## 🧱 Tech Stack
 
@@ -116,7 +117,8 @@
 > • 기간: 2023.06 ~ 2023.07  
 > • 환경: Unity3D, C#, Github
 > • 역할: AI 상태 패턴, 인벤토리, 데이터 구조 및 전체 시스템 구현  
-> • Repository: [GitHub](https://github.com/HaloTwo/Pokemon)  
+> • Repository: [GitHub](https://github.com/HaloTwo/Pokemon)
+> • Video: [Youtube](https://www.youtube.com/watch?v=s__GzKLjPf0)  
 
 
 ## 🤖 Nier: Automata (Team Project)
@@ -126,7 +128,8 @@
 > • 기간: 2023.05 ~ 2023.06  
 > • 환경: Unity3D, C#, Github
 > • 역할: Enemy AI, Boss 패턴, 전투 시스템 구현  
-> • Repository: [GitHub](https://github.com/HaloTwo/Nier-Automata)  
+> • Repository: [GitHub](https://github.com/HaloTwo/Nier-Automata)
+> • Video: [Youtube](https://youtu.be/h8MQ959f8tk)  
 
 ## 🧁 Cuphead (Personal Project)
 
@@ -135,8 +138,8 @@
 > • 기간: 2023.04 ~ 2023.04  
 > • 환경: Unity2D, C#, Github
 > • 역할: 보스 패턴, 전투 시스템, UI 구현  
-> • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)  
-
+> • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)
+> • Video: [Youtube](https://youtu.be/5bR0k2nC6nk)  
 
 
 

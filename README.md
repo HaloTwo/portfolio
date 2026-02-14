@@ -142,5 +142,15 @@
 > • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)  
 > • Video: [Youtube](https://youtu.be/5bR0k2nC6nk)  
 
+# 🎓 Education & Training
+
+- 경일게임아카데미 Unity 게임 프로그래밍 양성과정 수료  
+  (2023.03 ~ 2023.08)
+  
+- 한림대학교 소프트웨어융합스쿨 콘텐츠IT학과 졸업  
+  (2019.03 ~ 2023.02)
+
+- 한림성심대학교 디지털미디어콘텐츠과 졸업  
+  (2017.03 ~ 2019.02)
 
 

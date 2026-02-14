@@ -116,8 +116,7 @@
 > 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
 >
 > • 기간: 2023.06 ~ 2023.07  
-> • 환경: Unity3D, C#, Github
-> • 역할: AI 상태 패턴, 인벤토리, 데이터 구조 및 전체 시스템 구현  
+> • 환경: Unity3D, C#, Github  
 > • Repository: [GitHub](https://github.com/HaloTwo/Pokemon)  
 > • Video: [Youtube](https://www.youtube.com/watch?v=s__GzKLjPf0)  
 
@@ -127,7 +126,7 @@
 > Enemy AI, Boss 패턴, 전투 시스템 구현 중심 3D 액션 프로젝트  
 >
 > • 기간: 2023.05 ~ 2023.06  
-> • 환경: Unity3D, C#, Github
+> • 환경: Unity3D, C#, Github  
 > • 역할: Enemy AI, Boss 패턴, 전투 시스템 구현  
 > • Repository: [GitHub](https://github.com/HaloTwo/Nier-Automata)  
 > • Video: [Youtube](https://youtu.be/h8MQ959f8tk)  
@@ -137,8 +136,7 @@
 > 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
 >
 > • 기간: 2023.04 ~ 2023.04  
-> • 환경: Unity2D, C#, Github
-> • 역할: 보스 패턴, 전투 시스템, UI 구현  
+> • 환경: Unity2D, C#, Github  
 > • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)  
 > • Video: [Youtube](https://youtu.be/5bR0k2nC6nk)  
 

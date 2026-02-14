@@ -52,19 +52,19 @@
 
 # 💼 Experience
 
-ALBUS | Client Programmer (2023.09 ~ 2025.03)  
-Unity3D 기반 상용 모바일 게임 개발 및 출시 경험
+ALBUS | Unity Client Programmer (2023.09 ~ 2025.03)  
+Unity3D 기반 상용 하이퍼 캐주얼 모바일 게임 개발 및 출시 경험
 
-- 🏝 WaterParkBoys  
+- 1. WaterParkBoys  
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
 
-- 🎡 AwesomePark : Idle Game  
+- 2. AwesomePark : Idle Game  
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark&hl=ko) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
 
-- 🛼 Skate Shop: Roller Disco Dance  
+- 3. Skate Shop: Roller Disco Dance  
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco&hl=ko) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
 
-- 👑 MakeAQueen (Android Only)  
+- 4. MakeAQueen 
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens&hl=ko)
 
 ### 🔧 Core System Development

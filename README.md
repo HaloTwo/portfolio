@@ -52,9 +52,10 @@
 # 💼 Experience
 
 ## ALBUS | Unity Client Programmer  
-2023.09 ~ 2025.03  
 
-> 상용 모바일 게임 4종 출시 참여  
+> 2023.09 ~ 2025.03  
+> 상용 모바일 게임 4종 출시 참여
+> 유니티 클라이언트 개발자
 
 ### 🎮 Released Games
 - 🏝 WaterParkBoys  

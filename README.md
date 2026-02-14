@@ -51,7 +51,7 @@
 
 # 💼 Experience
 
-## ALBUS | Unity Client Programmer  
+## ALBUS Corp | Unity Client Programmer  
 
 > 2023.09 ~ 2025.03  
 > 유니티 클라이언트 개발자  

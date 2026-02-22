@@ -57,11 +57,17 @@
 
 ## ALBUS Corp | Unity Client Programmer  
 
-> 2023.09 ~ 2025.03  
+> 2023.09 ~ 2025.03 (1년 6개월)
 > 유니티 클라이언트 개발자  
 > 상용 모바일 게임 4종 출시 참여  
 
-### 🎮 Released Games
+## 👤 Role
+- 코어 게임 루프 설계 및 구현 담당
+- 저장 시스템 및 데이터 구조 설계 주도
+- 100명 이상 NPC 동시 처리 구조 설계 및 최적화
+- Google Sheet 기반 데이터 파이프라인 구축
+
+## 🎮 Released Games
 
 - 🏝 WaterParkBoys  
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
@@ -105,8 +111,8 @@
 
   </details>
 
+
 ### 🔧 Core Gameplay Architecture
-- 코어 게임 로직 구조 설계 및 기능 구현
 - NPC 이동 및 행동 패턴 로직 구현
 - 이벤트 트리거 기반 상호작용 시스템 개발
 - Delegate 기반 이벤트 구조로 시스템 간 결합도 감소

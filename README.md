@@ -30,9 +30,12 @@
 ---
 # ⚔️ Unreal Project (Action RPG Project)
 
-> Lies of P에서 영감을 받은 GAS 기반 3D 액션 전투 시스템 구현 프로젝트  
-> 전투, AI, 게임플레이 아키텍처 구조 설계 중심
->
+>GAS 기반 전투 아키텍처를 설계하고   
+>Ability + Data 중심 확장 구조를 검증한 3D 액션 프로젝트
+
+>Lies of P 전투 구조를 레퍼런스로,   
+>싱글 플레이 환경에서 전투·AI·데이터 흐름을 통합 설계했습니다.
+
 > • 기간: 2025.07 ~ 2025.09  
 > • 엔진: Unreal Engine 5.4.4 (C++ / Blueprint)  
 > • 중점: Combat System / AI / Gameplay Architecture
@@ -41,13 +44,13 @@
 • Video : [Youtube 영상 링크](https://youtu.be/6_0rvUXyf8w)  
 
 ## 🔧 Core Implementation
-- Gameplay Ability System(GAS) 기반 전투 시스템 설계
-- Target Lock-On 시스템 구현
-- Weapon Trace 기반 공격 판정 처리
-- Behavior Tree + EQS 기반 적 AI 설계
-- Boss Phase 패턴 전환 시스템 구현
-- Motion Warping + Anim Notify 기반 전투 연출
-- DataAsset 기반 무기 / 스킬 데이터 구조 설계
+- Gameplay Ability System(GAS) 기반 전투 시스템 설계  
+- Weapon Trace 기반 정밀 공격 판정 처리  
+- Target Lock-On 시스템 구현  
+- Behavior Tree + EQS 기반 적 AI 설계  
+- Boss Phase 패턴 전환 시스템 구현  
+- Motion Warping + Anim Notify 기반 전투 연출 처리  
+- DataAsset 기반 무기 / 스킬 데이터 구조 설계  
 ---
 
 # 💼 Experience

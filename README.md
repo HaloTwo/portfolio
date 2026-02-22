@@ -35,9 +35,10 @@
 >
 > • 기간: 2025.07 ~ 2025.09  
 > • 엔진: Unreal Engine 5.4.4 (C++ / Blueprint)  
-> • 중점: Combat System / AI / Gameplay Architecture  
-> • Repository: [GitHub](https://github.com/HaloTwo/LOP)  
-> • Video: [Youtube](https://youtu.be/6_0rvUXyf8w)  
+> • 중점: Combat System / AI / Gameplay Architecture
+> 
+• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/LOP)  
+• Video : [Youtube 영상 링크](https://youtu.be/6_0rvUXyf8w)  
 
 ## 🔧 Core Implementation
 - Gameplay Ability System(GAS) 기반 전투 시스템 설계
@@ -154,9 +155,10 @@
 > 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
 >
 > • 기간: 2023.06 ~ 2023.07  
-> • 환경: Unity3D, C#, Github  
-> • Repository: [GitHub](https://github.com/HaloTwo/Pokemon)  
-> • Video: [Youtube](https://www.youtube.com/watch?v=s__GzKLjPf0)  
+> • 환경: Unity3D, C#, Github
+> 
+• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/Pokemon)  
+• Video : [Youtube 영상 링크](https://www.youtube.com/watch?v=s__GzKLjPf0)  
 
 
 ## 🤖 Nier: Automata (Team Project)
@@ -165,18 +167,20 @@
 >
 > • 기간: 2023.05 ~ 2023.06  
 > • 환경: Unity3D, C#, Github  
-> • 역할: Enemy AI, Boss 패턴, 전투 시스템 구현  
-> • Repository: [GitHub](https://github.com/HaloTwo/Nier-Automata)  
-> • Video: [Youtube](https://youtu.be/h8MQ959f8tk)  
+> • 역할: Enemy AI, Boss 패턴, 전투 시스템 구현
+>  
+• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/Nier-Automata)  
+• Video : [Youtube 영상 링크](https://youtu.be/h8MQ959f8tk)  
 
 ## 🧁 Cuphead (Personal Project)
 
 > 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
 >
 > • 기간: 2023.04 ~ 2023.04  
-> • 환경: Unity2D, C#, Github  
-> • Repository: [GitHub](https://github.com/HaloTwo/Cuphead)  
-> • Video: [Youtube](https://youtu.be/5bR0k2nC6nk)  
+> • 환경: Unity2D, C#, Github
+> 
+• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/Cuphead)  
+• Video : [Youtube 영상 링크](https://youtu.be/5bR0k2nC6nk)  
 
 ---
 

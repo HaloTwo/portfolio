@@ -59,15 +59,17 @@
 
 > 2023.09 ~ 2025.03 (1년 6개월)   
 > 유니티 클라이언트 개발자  
-> 상용 모바일 게임 4종 출시 참여  
+> 상용 모바일 게임 4종 출시 참여
 
-## 👤 Role
+### 👤 Role
 - 코어 게임 루프 설계 및 구현 담당
 - 저장 시스템 및 데이터 구조 설계 주도
 - 100명 이상 NPC 동시 처리 구조 설계 및 최적화
 - Google Sheet 기반 데이터 파이프라인 구축
 
-## 🎮 Released Games
+---
+
+### 🎮 Released Games
 
 - 🏝 WaterParkBoys  
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
@@ -111,29 +113,32 @@
 
   </details>
 
+---
 
-### 🔧 Core Gameplay Architecture
+### 🔧 Core Contributions
+
+#### 🎮 Gameplay Architecture
 - NPC 이동 및 행동 패턴 로직 구현
 - 이벤트 트리거 기반 상호작용 시스템 개발
 - Delegate 기반 이벤트 구조로 시스템 간 결합도 감소
 
-### 💾 Save System
+#### 💾 Save System
 - 암호화 JSON 기반 저장 구조 설계
 - 데이터 버전 관리 및 포맷 변경 대응 로직 구현
 - 진행 상태 기준 저장 데이터 정합성 검증 및 보정 처리
 
 >안정적으로 데이터를 유지하는 것을 우선으로 설계했습니다.
 
-### ⏱ Offline Progression
+#### ⏱ Offline Progression
 - 마지막 접속 시간 기반 오프라인 보상 계산 로직 구현
 - 건물 생산 구조와 연동된 누적 보상 처리
 
 >장시간 미접속 상황에서도 데이터가 자연스럽게 이어지도록 구성했습니다.
 
-### ⚡ Large Scale NPC & Optimization
+#### ⚡ Large Scale NPC & Optimization
 - 100명 이상 손님 NPC 동시 동작 환경 고려
 - 상태 기반 동적 컴포넌트 부착 구조 구현
-- Component Pool 적용으로 생성/삭제 비용 감소
+- Component Pool 적용 및 GC 부담 완화
 - GC 부담 완화 및 프레임 안정화
 
 >실제 플레이 상황에서 성능 저하가 발생하지 않도록 설계했습니다.
@@ -145,7 +150,7 @@
 
 >기존 시스템을 재사용하는 방향으로 구조를 확장했습니다.
 
-### 🛠 Custom Data Tooling
+#### 🛠 Data Pipeline Tooling
 - Google Sheet 데이터를 ScriptableObject로 변환하는 에디터 툴 제작
 - 데이터 변경 시 자동 갱신 구조 구성
 

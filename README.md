@@ -87,7 +87,7 @@
   <details>
   <summary>📷이미지 펼치기/닫기</summary>
 
-  <img src="Image/RollerDisco.png" width="700"/>
+  <img src="Image/RollerDisco1.png" width="700"/>
 
 
   </details>

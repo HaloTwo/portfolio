@@ -165,12 +165,13 @@
 > (※ 시스템/전투 중심 구현 프로젝트)
 
 
-## 🧁 WildTamer Prototype (Personal Project)
+## 🐺 WildTamer Prototype (Personal Project)
 
-> 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
->
-> • 기간: 2026.03.05 ~ 2026.03.09  
-> • 환경: Unity2D, C#, Github
+> Wild Tamer 스타일의 군집 기반 테이밍 RPG 프로토타입 프로젝트   
+> 자동 전투와 부대 확장 구조 중심의 게임플레이 시스템 구현   
+
+> • 기간: 2026.03.05 ~ 2026.03.09   
+> • 환경: Unity2D, C#, Github   
 > 
 • Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/WildTamer)  
 • Video : [Youtube 영상 링크](https://youtube.com/shorts/mLd9Y7k4bvM?feature=share)  

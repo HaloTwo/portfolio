@@ -164,6 +164,18 @@
 > 상세 구현 내용 및 코드 구조는 각 GitHub Repository에서 확인 가능합니다.  
 > (※ 시스템/전투 중심 구현 프로젝트)
 
+
+## 🧁 WildTamer Prototype (Personal Project)
+
+> 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
+>
+> • 기간: 2026.03.05 ~ 2026.03.09  
+> • 환경: Unity2D, C#, Github
+> 
+• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/WildTamer)  
+• Video : [Youtube 영상 링크](https://youtube.com/shorts/mLd9Y7k4bvM?feature=share)  
+
+
 ## 🐉 Pokemon: Scarlet (Personal Project)
 
 > 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  

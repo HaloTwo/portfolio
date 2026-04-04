@@ -58,7 +58,7 @@
 
 > 2023.09 ~ 2025.03 (1년 6개월)   
 > 유니티 클라이언트 개발자  
-> 상용 모바일 게임 4종 출시 참여
+> 상용 하이퍼 캐주얼 모바일 게임 4종 출시 참여
 
 ### 👤 Role
 - 코어 게임 루프 설계 및 구현 담당
@@ -71,6 +71,10 @@
 ### 🎮 Released Games
 
 - 🏝 WaterParkBoys  
+  **Genre:** Hyper Casual / Simulation  
+  **Graphics:** 3D  
+  **Platform:** Mobile  
+
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
 
   <details>
@@ -80,7 +84,13 @@
 
   </details>
 
+---
+
 - 🎡 AwesomePark : Idle Game  
+  **Genre:** Hyper Casual / Simulation  
+  **Graphics:** 3D  
+  **Platform:** Mobile  
+
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
 
   <details>
@@ -88,10 +98,15 @@
 
   <img src="Image/AwesomePark.png" width="700"/>
 
-
   </details>
 
+---
+
 - 🛼 Skate Shop: Roller Disco Dance  
+  **Genre:** Hyper Casual / Simulation  
+  **Graphics:** 3D  
+  **Platform:** Mobile  
+
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
 
   <details>
@@ -99,10 +114,15 @@
 
   <img src="Image/RollerDisco.png" width="700"/>
 
-
   </details>
 
+---
+
 - 👑 MakeAQueen  
+  **Genre:** Hyper Casual / Action  
+  **Graphics:** 3D  
+  **Platform:** Mobile  
+
   📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)
 
   <details>
@@ -111,8 +131,6 @@
   <img src="Image/MakeaQueen.png" width="700"/>
 
   </details>
-
----
 
 ### 🔧 Core Contributions
 

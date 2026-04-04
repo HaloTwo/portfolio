@@ -74,9 +74,9 @@
 # 🎮 Released Games
 
 ## 🏝 WaterParkBoys
-**Genre:** Hyper Casual / Simulation  
-**Graphics:** 3D  
-**Platform:** Mobile  
+> **Genre:** Hyper Casual / Simulation  
+> **Graphics:** 3D  
+> **Platform:** Mobile  
 
 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
 
@@ -88,9 +88,9 @@
 </details>
 
 ## 🎡 AwesomePark : Idle Game
-**Genre:** Hyper Casual / Simulation  
-**Graphics:** 3D  
-**Platform:** Mobile  
+> **Genre:** Hyper Casual / Simulation  
+> **Graphics:** 3D  
+> **Platform:** Mobile  
 
 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
 
@@ -102,9 +102,9 @@
 </details>
 
 ## 🛼 Skate Shop: Roller Disco Dance
-**Genre:** Hyper Casual / Simulation  
-**Graphics:** 3D  
-**Platform:** Mobile  
+> **Genre:** Hyper Casual / Simulation  
+> **Graphics:** 3D  
+> **Platform:** Mobile  
 
 📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
 
@@ -116,9 +116,9 @@
 </details>
 
 ## 👑 MakeAQueen
-**Genre:** Hyper Casual / Action  
-**Graphics:** 3D  
-**Platform:** Mobile  
+> **Genre:** Hyper Casual / Action  
+> **Graphics:** 3D  
+> **Platform:** Mobile  
 
 📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)
 

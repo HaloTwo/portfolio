@@ -71,70 +71,64 @@
 
 ---
 
-### 🎮 Released Games
+# 🎮 Released Games
 
-- 🏝 WaterParkBoys  
-  **Genre:** Hyper Casual / Simulation  
-  **Graphics:** 3D  
-  **Platform:** Mobile  
+## 🏝 WaterParkBoys
+**Genre:** Hyper Casual / Simulation  
+**Graphics:** 3D  
+**Platform:** Mobile  
 
-  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
+📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
 
-  <details>
-  <summary>📷이미지 펼치기/닫기</summary>
+<details>
+<summary>📷이미지 펼치기/닫기</summary>
 
-  <img src="Image/WaterParkBoys.png" width="700"/>
+<img src="Image/WaterParkBoys.png" width="700"/>
 
-  </details>
+</details>
 
----
+## 🎡 AwesomePark : Idle Game
+**Genre:** Hyper Casual / Simulation  
+**Graphics:** 3D  
+**Platform:** Mobile  
 
-- 🎡 AwesomePark : Idle Game  
-  **Genre:** Hyper Casual / Simulation  
-  **Graphics:** 3D  
-  **Platform:** Mobile  
+📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
 
-  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
+<details>
+<summary>📷이미지 펼치기/닫기</summary>
 
-  <details>
-  <summary>📷이미지 펼치기/닫기</summary>
+<img src="Image/AwesomePark.png" width="700"/>
 
-  <img src="Image/AwesomePark.png" width="700"/>
+</details>
 
-  </details>
+## 🛼 Skate Shop: Roller Disco Dance
+**Genre:** Hyper Casual / Simulation  
+**Graphics:** 3D  
+**Platform:** Mobile  
 
----
+📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
 
-- 🛼 Skate Shop: Roller Disco Dance  
-  **Genre:** Hyper Casual / Simulation  
-  **Graphics:** 3D  
-  **Platform:** Mobile  
+<details>
+<summary>📷이미지 펼치기/닫기</summary>
 
-  📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
+<img src="Image/RollerDisco.png" width="700"/>
 
-  <details>
-  <summary>📷이미지 펼치기/닫기</summary>
+</details>
 
-  <img src="Image/RollerDisco.png" width="700"/>
+## 👑 MakeAQueen
+**Genre:** Hyper Casual / Action  
+**Graphics:** 3D  
+**Platform:** Mobile  
 
-  </details>
+📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)
 
----
+<details>
+<summary>📷이미지 펼치기/닫기</summary>
 
-- 👑 MakeAQueen  
-  **Genre:** Hyper Casual / Action  
-  **Graphics:** 3D  
-  **Platform:** Mobile  
+<img src="Image/MakeaQueen.png" width="700"/>
 
-  📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)
+</details>
 
-  <details>
-  <summary>📷이미지 펼치기/닫기</summary>
-
-  <img src="Image/MakeaQueen.png" width="700"/>
-
-  </details>
-  
 ---
 
 ### 🔧 Core Contributions

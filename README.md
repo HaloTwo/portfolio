@@ -27,6 +27,8 @@
 
 
 ---
+
+
 # 1.Unreal Project (Action RPG Project)
 
 >GAS 기반 전투 아키텍처를 설계하고  
@@ -49,7 +51,8 @@
 - Behavior Tree + EQS 기반 적 AI 설계  
 - Boss Phase 패턴 전환 시스템 구현  
 - Motion Warping + Anim Notify 기반 전투 연출 처리  
-- DataAsset 기반 무기 / 스킬 데이터 구조 설계  
+- DataAsset 기반 무기 / 스킬 데이터 구조 설계
+
 ---
 
 # 💼 Experience
@@ -131,6 +134,8 @@
   <img src="Image/MakeaQueen.png" width="700"/>
 
   </details>
+  
+---
 
 ### 🔧 Core Contributions
 

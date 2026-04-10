@@ -29,7 +29,7 @@
 ---
 
 
-# 1.Unreal Project (Action RPG Project)
+# 1. Unreal Project (Action RPG Project)
 
 >GAS 기반 전투 아키텍처를 설계하고  
 >Ability + Data 중심 확장 구조로 구현한 3D 액션 프로젝트

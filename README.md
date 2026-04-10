@@ -29,12 +29,12 @@
 ---
 
 
-# 1. Unreal Project (Action RPG Project)
+# 1. Lies of P 모작 (Action RPG Project)
 
 >GAS 기반 전투 아키텍처를 설계하고  
 >Ability + Data 중심 확장 구조로 구현한 3D 액션 프로젝트
 
->Lies of P 전투 구조를 레퍼런스로,   
+>Lies of P 기반 전투 구조를 레퍼런스로,   
 >싱글 플레이 환경에서 전투·AI·데이터 흐름을 통합 설계했습니다.
 
 > • 기간: 2025.07 ~ 2025.09  
@@ -42,8 +42,9 @@
 > • 중점: Combat System / AI / Gameplay Architecture
 > 
 • Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/LOP)  
+<!--
 • Video : [Youtube 영상 링크](https://youtu.be/6_0rvUXyf8w)  
-
+-->
 ## 🔧 Core Implementation
 - Gameplay Ability System(GAS) 기반 전투 시스템 설계  
 - Weapon Trace 기반 정밀 공격 판정 처리  
@@ -193,7 +194,7 @@
 • Video : [Youtube 영상 링크](https://youtube.com/shorts/mLd9Y7k4bvM?feature=share)  
 
 
-## 2.Pokemon: Scarlet (Personal Project)
+## 2.Pokemon: Scarlet 모작 (Personal Project)
 
 > 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
 >
@@ -204,7 +205,7 @@
 • Video : [Youtube 영상 링크](https://www.youtube.com/watch?v=s__GzKLjPf0)  
 
 
-## 3.Nier: Automata (Team Project)
+## 3.Nier: Automata 모작 (Team Project)
 
 > Enemy AI, Boss 패턴, 전투 시스템 구현 중심 3D 액션 프로젝트  
 >
@@ -215,7 +216,7 @@
 • Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/Nier-Automata)  
 • Video : [Youtube 영상 링크](https://youtu.be/h8MQ959f8tk)  
 
-## 4.Cuphead (Personal Project)
+## 4.Cuphead 모작 (Personal Project)
 
 > 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
 >

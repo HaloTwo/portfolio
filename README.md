@@ -11,7 +11,7 @@
 > 다양한 엔진 환경에서 액션 게임의 전투 시스템과 AI 구조 설계 및 구현을 수행해왔습니다.  
 > 완성도 높은 게임플레이 경험을 만드는 것을 목표로 합니다.
 
-## 🧱 Tech Stack
+## 🧱 기술 스택
 
 ### 🎮 Engine
 <img src="https://img.shields.io/badge/Unreal%20Engine%205-313131?style=flat-square&logo=UnrealEngine&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>
@@ -45,7 +45,7 @@
 <!--
 • Video : [Youtube 영상 링크](https://youtu.be/6_0rvUXyf8w)  
 -->
-## 🔧 Core Implementation
+## 🔧 주요 구현
 - Gameplay Ability System(GAS) 기반 전투 시스템 설계  
 - Weapon Trace 기반 정밀 공격 판정 처리  
 - Target Lock-On 시스템 구현  
@@ -56,15 +56,15 @@
 
 ---
 
-# 💼 Experience
+# 💼 경력
 
-## ALBUS Corp | Unity Client Programmer  
+## ALBUS Corp | 유니티 클라이언트 개발자
 
 > 2023.09 ~ 2025.03 (1년 6개월)   
 > 유니티 클라이언트 개발자  
 > 상용 모바일 게임 4종 출시 참여
 
-### 👤 Role
+### 👤 주요 담당 역할
 - 코어 게임 루프 설계 및 구현 담당
 - 저장 시스템 및 데이터 구조 설계 주도
 - 100명 이상 NPC 동시 처리 구조 설계 및 최적화
@@ -72,7 +72,7 @@
 
 ---
 
-# 🎮 Released Games
+# 🎮 프로젝트
 
 ## 🏝 WaterParkBoys
 > **Genre:** Hyper Casual / Simulation  
@@ -132,27 +132,27 @@
 
 ---
 
-### 🔧 Core Contributions
+### 🔧 주요 구현
 
-#### 🎮 Gameplay Architecture
+#### 🎮 게임플레이 구조
 - NPC 이동 및 행동 패턴 로직 구현
 - 이벤트 트리거 기반 상호작용 시스템 개발
 - Delegate 기반 이벤트 구조로 시스템 간 결합도 감소
 
-#### 💾 Save System
+#### 💾 저장 시스템
 - 암호화 JSON 기반 저장 구조 설계
 - 데이터 버전 관리 및 포맷 변경 대응 로직 구현
 - 진행 상태 기준 저장 데이터 정합성 검증 및 보정 처리
 
 >안정적으로 데이터를 유지하는 것을 우선으로 설계했습니다.
 
-#### ⏱ Offline Progression
+#### ⏱ 오프라인 보상 시스템
 - 마지막 접속 시간 기반 오프라인 보상 계산 로직 구현
 - 건물 생산 구조와 연동된 누적 보상 처리
 
 >장시간 미접속 상황에서도 데이터가 자연스럽게 이어지도록 구성했습니다.
 
-#### ⚡ Large Scale NPC & Optimization
+#### ⚡ 대규모 NPC 처리 및 최적화
 - 100명 이상 손님 NPC 동시 동작 환경 고려
 - 상태 기반 동적 컴포넌트 부착 구조 구현
 - Component Pool 적용 및 GC 부담 완화
@@ -160,14 +160,14 @@
 
 >실제 플레이 상황에서 성능 저하가 발생하지 않도록 설계했습니다.
 
-### 🎮 Gameplay Interaction
+### 🎮 상호작용 시스템 확장
 - 손님 NPC 전용 탑승 시스템을 플레이어 상호작용으로 확장
 - 탑승 상태 전환 로직 구현
 - 카메라 View Mode 전환 처리
 
 >기존 시스템을 재사용하는 방향으로 구조를 확장했습니다.
 
-#### 🛠 Data Pipeline Tooling
+#### 🛠 데이터 파이프라인 자동화
 - Google Sheet 데이터를 ScriptableObject로 변환하는 에디터 툴 제작
 - 데이터 변경 시 자동 갱신 구조 구성
 
@@ -176,7 +176,7 @@
 
 ---
 
-# 🎮 Projects
+# 🎮 개인 프로젝트
 
 > 상세 구현 내용 및 코드 구조는 각 GitHub Repository에서 확인 가능합니다.  
 > (※ 시스템/전투 중심 구현 프로젝트)
@@ -228,7 +228,7 @@
 
 ---
 
-# 🎓 Education & Training
+# 🎓 학력 및 교육
 
 - 경일게임아카데미 Unity 게임 프로그래밍 양성과정 수료  
   (2023.03 ~ 2023.08)

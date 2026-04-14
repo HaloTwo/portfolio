@@ -181,7 +181,7 @@
 > (※ 시스템/전투 중심 구현 프로젝트)
 
 
-## 1.WildTamer Prototype (Personal Project)
+## WildTamer Prototype (Personal Project)
 
 > Wild Tamer 스타일의 군집 기반 테이밍 RPG 프로토타입 프로젝트   
 > 자동 전투와 부대 확장 구조 중심의 게임플레이 시스템 구현   
@@ -193,7 +193,7 @@
 • Video : [Youtube 영상 링크](https://youtube.com/shorts/mLd9Y7k4bvM?feature=share)  
 
 
-## 2.Pokemon: Scarlet 모작 (Personal Project)
+## Pokemon: Scarlet 모작 (Personal Project)
 
 > 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
 >
@@ -204,7 +204,7 @@
 • Video : [Youtube 영상 링크](https://www.youtube.com/watch?v=s__GzKLjPf0)  
 
 
-## 3.Nier: Automata 모작 (Team Project)
+## Nier: Automata 모작 (Team Project)
 
 > Enemy AI, Boss 패턴, 전투 시스템 구현 중심 3D 액션 프로젝트  
 >
@@ -215,7 +215,7 @@
 • Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/Nier-Automata)  
 • Video : [Youtube 영상 링크](https://youtu.be/h8MQ959f8tk)  
 
-## 4.Cuphead 모작 (Personal Project)
+## Cuphead 모작 (Personal Project)
 
 > 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
 >

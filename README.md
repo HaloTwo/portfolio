@@ -29,13 +29,12 @@
 ---
 
 
-# 1. Lies of P 모작 (Action RPG Project)
+# 🎮 대표 언리얼 프로젝트
 
->GAS 기반 전투 아키텍처를 설계하고  
->Ability + Data 중심 확장 구조로 구현한 3D 액션 프로젝트
+## Lies of P 모작
 
->Lies of P 기반 전투 구조를 레퍼런스로,   
->싱글 플레이 환경에서 전투·AI·데이터 흐름을 통합 설계했습니다.
+> UE5 / GAS 기반 3D 액션 RPG 개인 포트폴리오 프로젝트  
+> Lies of P의 전투 구조를 레퍼런스로 제작한 싱글 플레이 액션 프로젝트
 
 > • 기간: 2025.07 ~ 2025.09  
 > • 엔진: Unreal Engine 5.4.4 (C++ / Blueprint)  
@@ -72,7 +71,7 @@
 
 ---
 
-# 🎮 프로젝트
+# 🎮 회사 프로젝트
 
 ## 🏝 WaterParkBoys
 > **Genre:** Hyper Casual / Simulation  
@@ -176,7 +175,7 @@
 
 ---
 
-# 🎮 개인 프로젝트
+# 🎮 개인 유니티 프로젝트
 
 > 상세 구현 내용 및 코드 구조는 각 GitHub Repository에서 확인 가능합니다.  
 > (※ 시스템/전투 중심 구현 프로젝트)

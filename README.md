@@ -80,78 +80,112 @@
 > Unity 기반 모바일 하이퍼캐주얼 게임 개발  
 > 게임플레이, 데이터 구조, 최적화 등 클라이언트 전반 개발
 
-### 📱 출시 게임 요
+### 📱 출시 게임
 
-| 게임명 | 장르 | 플랫폼 |
-|--------|------|--------|
-| WaterParkBoys | Hyper Casual / Simulation | [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) / [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165) |
-| AwesomePark : Idle Game | Hyper Casual / Simulation | [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) / [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793) |
-| Roller Disco | Hyper Casual / Simulation | [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) / [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869) |
-| MakeAQueen | Hyper Casual / Action | [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens) |
+| 썸네일 | 게임명 | 장르 | Google Play | App Store |
+|--------|--------|------|-------------|-----------|
+| [<img src="Image/WaterParkBoys.png" width="150"/>](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | WaterParkBoys | Hyper Casual / Simulation | [바로가기](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | [바로가기](https://apps.apple.com/us/app/waterpark-boys/id6457257165) |
+| [<img src="Image/AwesomePark.png" width="150"/>](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | AwesomePark | Hyper Casual / Simulation | [바로가기](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | [바로가기](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793) |
+| [<img src="Image/RollerDisco.png" width="150"/>](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | Roller Disco | Hyper Casual / Simulation | [바로가기](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | [바로가기](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869) |
+| [<img src="Image/MakeaQueen.png" width="150"/>](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens) | MakeAQueen | Hyper Casual / Action | [바로가기](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens) | - |
 
 ## 🧩 개인 프로젝트
+
+### 🎮 프로젝트 요약
+
+| 프로젝트 | 엔진 | 핵심 키워드 | 코드 및 설명 | 영상 |
+|----------|------|------------|------|------|
+| Lies of P 모작 | Unreal 5 | GAS · 전투 시스템 · AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
+| WildTamer 프로토타입 | Unity 2D | 군집 AI · 자동 전투 | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
+| Pokemon 모작 | Unity 3D | State Pattern · AI | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
+| Nier:Automata 모작 (팀) | Unity 3D | Enemy AI · Boss 패턴 | [GitHub](https://github.com/HaloTwo/Nier-Automata) | [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
+| Cuphead 모작 | Unity 2D | 보스 패턴 · 타이밍 | [GitHub](https://github.com/HaloTwo/Cuphead) | [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
+
+<details>
+<summary><strong>🔍 주요 프로젝트 상세 보기</strong></summary>
+
 
 ### 🔹 Lies of P 모작 (Unreal)
 
 > UE5 / GAS 기반 3D 액션 RPG  
-> 전투 시스템, AI, 게임플레이 구조 중심 구현
+> 전투 시스템, AI, 게임플레이 구조 중심 설계 및 구현
 
 - **기간:** 2025.07 ~ 2025.09  
-- **기술:** Unreal · C++ · Blueprint · GAS
-
-🔗 https://github.com/HaloTwo/LOP  
-🎥 https://youtu.be/6_0rvUXyf8w  
+- **기술:** Unreal · C++ · Blueprint · GAS  
 
 #### 🔧 주요 구현
-- GAS 기반 전투 구조 설계  
-- Weapon Trace 기반 공격 판정 처리  
-- Lock-On 시스템 구현  
-- Behavior Tree + EQS 기반 AI 설계  
-- Boss Phase 패턴 전환 구조 구현  
-- Motion Warping 기반 전투 연출  
-- DataAsset 기반 데이터 구조 설계  
+- GAS 기반 Ability / Effect / Tag 구조 설계  
+- Weapon Trace 기반 프레임 간 충돌 보정 처리  
+- Lock-On 타겟팅 및 카메라 제어 시스템 구현  
+- Behavior Tree + EQS 기반 적 AI 의사결정 구조 설계  
+- Boss Phase 전환 및 패턴 분리 구조 구현  
+- Motion Warping + Anim Notify 기반 전투 연출 처리  
+- DataAsset 기반 무기 및 스킬 데이터 구조 설계
 
-<br>
+---
 
-### 🔹 WildTamer 프로토타입 (Unity)
+### 🔹 WildTamer 프로토타입 (Unity 2D)
 
-> Unity 군집 기반 테이밍 RPG 프로토타입  
-> 자동 전투 및 부대 확장 구조 구현
+> 군집 기반 테이밍 RPG 프로토타입  
+> 부대 행동과 자동 전투 중심의 게임플레이 구조 구현
 
 - **기간:** 2026.03.05 ~ 2026.03.09  
 - **기술:** Unity2D · C#  
 
-🔗 https://github.com/HaloTwo/WildTamer  
-🎥 https://youtube.com/shorts/mLd9Y7k4bvM  
-
-<br>
-
-### 🔹 기타 프로젝트
-
-<details>
-<summary><strong>🔍 프로젝트 목록 보기</strong></summary>
-
-
-#### 🎮 Pokemon 모작 (Unity)
-- 상태 기반 AI 패턴 및 전투 흐름 구현  
-- State Pattern 기반 구조 설계  
-🔗 https://github.com/HaloTwo/Pokemon  
-
-
-#### 🤖 Nier 모작 (Unity, Team Project)
-- Enemy AI 및 Boss 패턴 구현  
-- 전투 시스템 일부 담당  
-🔗 https://github.com/HaloTwo/Nier-Automata  
-
-
-#### 🎯 Cuphead 모작 (Unity)
-- 보스 패턴 기반 2D 전투 시스템 구현  
-- 타이밍 기반 공격 구조 설계  
-🔗 https://github.com/HaloTwo/Cuphead  
-
-</details>
+#### 🔧 주요 구현
+- 부대 기반 군집 AI 이동 및 간격 유지 로직 설계  
+- 타겟 선택 및 자동 전투 흐름 구조 구현  
+- Object Pool 기반 유닛 및 이펙트 관리 구조 적용  
 
 ---
+
+### 🔹 Pokemon 모작 (Unity 3D)
+
+> 오픈월드 RPG 구조 기반 시스템 및 AI 구현 프로젝트  
+> 데이터 중심 구조와 상태 기반 AI 설계에 중점
+
+- **기간:** 2023.06 ~ 2023.07  
+- **기술:** Unity3D · C#  
+
+#### 🔧 주요 구현
+- State Pattern 기반 전투 및 AI 상태 전이 구조 설계  
+- 인벤토리, 상점, 데이터 기반 게임 시스템 구현  
+- Object Pool, LOD, Occlusion Culling 등 성능 최적화 적용  
+- ScriptableObject + Json 기반 데이터 관리 구조 설계  
+
+---
+
+### 🔹 Nier: Automata 모작 (Unity 3D, Team)
+
+> 3D 액션 전투 중심 팀 프로젝트  
+> Enemy AI 및 Boss 패턴 설계와 전투 흐름 제어 담당
+
+- **기간:** 2023.05 ~ 2023.06  
+- **기술:** Unity3D · C#  
+
+#### 🔧 주요 구현
+- Enemy AI 상태 머신 기반 행동 로직 구현  
+- Boss 패턴 설계 및 전투 흐름 제어 구조 구현  
+- Combat Interaction (공격/피격/경직) 처리 시스템 구현  
+- Object Pool 기반 전투 오브젝트 최적화  
+
+---
+
+### 🔹 Cuphead 모작 (Unity 2D)
+
+> 보스 패턴 중심 2D 액션 전투 프로젝트  
+> 타이밍 기반 공격과 패턴 반복 구조 설계
+
+- **기간:** 2023.04 ~ 2023.04  
+- **기술:** Unity2D · C#  
+
+#### 🔧 주요 구현
+- 보스 패턴 기반 전투 시스템 설계 및 구현  
+- Coroutine 기반 비동기 전투 처리  
+- Object Pool 및 Scene Async Loading 적용  
+- 카메라 이동 및 전투 연출 시스템 구현  
+
+</details>
 
 # 🎓 학력 및 교육
 

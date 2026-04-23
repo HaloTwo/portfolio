@@ -80,47 +80,14 @@
 > Unity 기반 모바일 하이퍼캐주얼 게임 개발  
 > 게임플레이, 데이터 구조, 최적화 등 클라이언트 전반 개발
 
-### 📱 출시 게임
-- 🏝 WaterParkBoys  
-- 🎡 AwesomePark : Idle Game  
-- 🛼 Skate Shop: Roller Disco Dance  
-- 👑 MakeAQueen  
+### 📱 출시 게임 요
 
-<details>
-<summary><strong>🔍 스토어 링크 및 이미지 보기</strong></summary>
-
-<br>
-
-### 🏝 WaterParkBoys  
-[📱 Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys)  
-[🍎 App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)  
-
-<img src="Image/WaterParkBoys.png" width="700"/>
-
-<br>
-
-### 🎡 AwesomePark : Idle Game  
-[📱 Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark)  
-[🍎 App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)  
-
-<img src="Image/AwesomePark.png" width="700"/>
-
-<br>
-
-### 🛼 Skate Shop: Roller Disco Dance  
-[📱 Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco)  
-[🍎 App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)  
-
-<img src="Image/RollerDisco.png" width="700"/>
-
-<br>
-
-### 👑 MakeAQueen  
-[📱 Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)  
-
-<img src="Image/MakeaQueen.png" width="700"/>
-
-</details>
+| 게임명 | 장르 | 플랫폼 |
+|--------|------|--------|
+| WaterParkBoys | Hyper Casual / Simulation | [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) / [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165) |
+| AwesomePark : Idle Game | Hyper Casual / Simulation | [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) / [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793) |
+| Roller Disco | Hyper Casual / Simulation | [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) / [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869) |
+| MakeAQueen | Hyper Casual / Action | [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens) |
 
 ## 🧩 개인 프로젝트
 

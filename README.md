@@ -70,7 +70,6 @@
 - 새로운 도구를 빠르게 학습하고 적용하여 반복 작업 최소화  
 
 </details>
-<br>
 
 ---
 
@@ -125,13 +124,13 @@
 
 ## 🧩 개인 프로젝트
 
-### 🔹 Lies of P 모작 (Unreal Engine)
+### 🔹 Lies of P 모작 (Unreal)
 
 > UE5 / GAS 기반 3D 액션 RPG  
 > 전투 시스템, AI, 게임플레이 구조 중심 구현
 
 - **기간:** 2025.07 ~ 2025.09  
-- **기술:** Unreal · GAS· C++ · Blueprint
+- **기술:** Unreal · C++ · Blueprint · GAS
 
 🔗 https://github.com/HaloTwo/LOP  
 🎥 https://youtu.be/6_0rvUXyf8w  
@@ -149,7 +148,7 @@
 
 ### 🔹 WildTamer 프로토타입 (Unity)
 
-> 군집 기반 테이밍 RPG 프로토타입  
+> Unity 군집 기반 테이밍 RPG 프로토타입  
 > 자동 전투 및 부대 확장 구조 구현
 
 - **기간:** 2026.03.05 ~ 2026.03.09  
@@ -165,23 +164,20 @@
 <details>
 <summary><strong>🔍 프로젝트 목록 보기</strong></summary>
 
-<br>
 
-#### 🎮 Pokemon 모작
+#### 🎮 Pokemon 모작 (Unity)
 - 상태 기반 AI 패턴 및 전투 흐름 구현  
 - State Pattern 기반 구조 설계  
 🔗 https://github.com/HaloTwo/Pokemon  
 
-<br>
 
-#### 🤖 Nier 모작 (Team Project)
+#### 🤖 Nier 모작 (Unity, Team Project)
 - Enemy AI 및 Boss 패턴 구현  
 - 전투 시스템 일부 담당  
 🔗 https://github.com/HaloTwo/Nier-Automata  
 
-<br>
 
-#### 🎯 Cuphead 모작
+#### 🎯 Cuphead 모작 (Unity)
 - 보스 패턴 기반 2D 전투 시스템 구현  
 - 타이밍 기반 공격 구조 설계  
 🔗 https://github.com/HaloTwo/Cuphead  

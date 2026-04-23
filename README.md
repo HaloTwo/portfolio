@@ -38,9 +38,8 @@
 > • 중점: Combat System / AI / Gameplay Architecture
 > 
 • Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/LOP)  
-<!--
 • Video : [Youtube 영상 링크](https://youtu.be/6_0rvUXyf8w)  
--->
+
 ## 🔧 주요 구현
 - Gameplay Ability System(GAS) 기반 전투 시스템 설계  
 - Weapon Trace 기반 정밀 공격 판정 처리  

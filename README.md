@@ -22,204 +22,171 @@
 ### 🛠 Tools
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/Photon-0A91D5?style=flat-square"/>
 
-
----
-
-
-# 🎮 대표 언리얼 프로젝트
-
-## Lies of P 모작
-
-> UE5 / GAS 기반 3D 액션 RPG 개인 포트폴리오 프로젝트  
-> Lies of P의 전투 구조를 레퍼런스로 제작한 싱글 플레이 액션 프로젝트
-
-> • 기간: 2025.07 ~ 2025.09  
-> • 엔진: Unreal Engine 5.4.4 (C++ / Blueprint)  
-> • 중점: Combat System / AI / Gameplay Architecture
-> 
-• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/LOP)  
-• Video : [Youtube 영상 링크](https://youtu.be/6_0rvUXyf8w)  
-
-## 🔧 주요 구현
-- Gameplay Ability System(GAS) 기반 전투 시스템 설계  
-- Weapon Trace 기반 정밀 공격 판정 처리  
-- Target Lock-On 시스템 구현  
-- Behavior Tree + EQS 기반 적 AI 설계  
-- Boss Phase 패턴 전환 시스템 구현  
-- Motion Warping + Anim Notify 기반 전투 연출 처리  
-- DataAsset 기반 무기 / 스킬 데이터 구조 설계
-
 ---
 
 # 💼 경력
 
 ## ALBUS Corp | 유니티 클라이언트 개발자
+> 2023.09 ~ 2025.03 (1년 6개월)
 
-> 2023.09 ~ 2025.03 (1년 6개월)   
-> 유니티 클라이언트 개발자  
-> 상용 모바일 게임 4종 출시 참여
+> 모바일 하이퍼캐주얼 게임 4종 출시 참여  
+> 게임플레이, 데이터 구조, 최적화 등 클라이언트 전반 개발  
+> 반복 작업 및 데이터 관리 구조 개선을 통한 개발 효율 향상  
 
-### 👤 주요 담당 역할
-- 코어 게임 루프 설계 및 구현 담당
-- 저장 시스템 및 데이터 구조 설계 주도
-- 100명 이상 NPC 동시 처리 구조 설계 및 최적화
-- Google Sheet 기반 데이터 파이프라인 구축
+### 👤 주요 담당 업무
+- 코어 게임 루프 설계 및 구현  
+- 저장 시스템 및 데이터 구조 설계  
+- 100명 이상 NPC 동시 처리 구조 설계 및 최적화  
+- Google Sheet 기반 데이터 파이프라인 구축  
+
+<details>
+<summary><strong>🔍 구현 상세 및 기술적 접근 방식 보기</strong></summary>
+
+### 🎮 게임플레이
+- NPC 이동 및 행동 패턴 로직 구현  
+- 이벤트 트리거 기반 상호작용 시스템 설계  
+- Delegate 기반 구조로 시스템 간 결합도 감소  
+
+### 💾 저장 시스템
+- 암호화 JSON 기반 저장 구조 설계  
+- 데이터 버전 관리 및 포맷 변경 대응  
+- 데이터 정합성 검증 및 보정 처리  
+
+### ⏱ 오프라인 보상
+- 마지막 접속 시간 기반 보상 계산 로직 구현  
+- 건물 생산 구조와 연동된 누적 보상 처리  
+
+### ⚡ 최적화
+- 100명 이상 NPC 동시 처리 구조 설계  
+- Component Pool 적용으로 GC 부담 완화 및 프레임 안정화  
+
+### 🛠 데이터 파이프라인
+- Google Sheet → ScriptableObject 변환 자동화 툴 제작  
+- 데이터 변경 시 자동 반영 구조 구축  
+
+### 🤖 개발 효율 개선
+- 반복적인 코드 작성 및 문서 정리 자동화 방식 도입  
+- 작업 흐름 개선을 통한 개발 속도 및 생산성 향상  
+- 새로운 도구를 빠르게 학습하고 적용하여 반복 작업 최소화  
+
+</details>
+<br>
 
 ---
 
-# 🎮 회사 프로젝트
+# 🎮 프로젝트
 
-## 🏝 WaterParkBoys
-> **Genre:** Hyper Casual / Simulation  
-> **Graphics:** 3D  
-> **Platform:** Mobile  
+## 💼 회사 프로젝트
 
-📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys) | 🍎 [App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)
+> Unity 기반 모바일 하이퍼캐주얼 게임 개발  
+> 게임플레이, 데이터 구조, 최적화 등 클라이언트 전반 개발
+
+### 📱 출시 게임
+- 🏝 WaterParkBoys  
+- 🎡 AwesomePark : Idle Game  
+- 🛼 Skate Shop: Roller Disco Dance  
+- 👑 MakeAQueen  
 
 <details>
-<summary>📷이미지 펼치기/닫기</summary>
+<summary><strong>🔍 스토어 링크 및 이미지 보기</strong></summary>
+
+<br>
+
+### 🏝 WaterParkBoys  
+[📱 Google Play](https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys)  
+[🍎 App Store](https://apps.apple.com/us/app/waterpark-boys/id6457257165)  
 
 <img src="Image/WaterParkBoys.png" width="700"/>
 
-</details>
+<br>
 
-## 🎡 AwesomePark : Idle Game
-> **Genre:** Hyper Casual / Simulation  
-> **Graphics:** 3D  
-> **Platform:** Mobile  
-
-📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark) | 🍎 [App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)
-
-<details>
-<summary>📷이미지 펼치기/닫기</summary>
+### 🎡 AwesomePark : Idle Game  
+[📱 Google Play](https://play.google.com/store/apps/details?id=com.Albus.AwesomePark)  
+[🍎 App Store](https://apps.apple.com/kr/app/awesome-park-idle-game/id6482050793)  
 
 <img src="Image/AwesomePark.png" width="700"/>
 
-</details>
+<br>
 
-## 🛼 Skate Shop: Roller Disco Dance
-> **Genre:** Hyper Casual / Simulation  
-> **Graphics:** 3D  
-> **Platform:** Mobile  
-
-📱 [Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco) | 🍎 [App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)
-
-<details>
-<summary>📷이미지 펼치기/닫기</summary>
+### 🛼 Skate Shop: Roller Disco Dance  
+[📱 Google Play](https://play.google.com/store/apps/details?id=com.albus.newrollerdisco)  
+[🍎 App Store](https://apps.apple.com/us/app/skate-shop-roller-disco-dance/id6744957869)  
 
 <img src="Image/RollerDisco.png" width="700"/>
 
-</details>
+<br>
 
-## 👑 MakeAQueen
-> **Genre:** Hyper Casual / Action  
-> **Graphics:** 3D  
-> **Platform:** Mobile  
-
-📱 [Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)
-
-<details>
-<summary>📷이미지 펼치기/닫기</summary>
+### 👑 MakeAQueen  
+[📱 Google Play](https://play.google.com/store/apps/details?id=com.Albus.MakeAQueens)  
 
 <img src="Image/MakeaQueen.png" width="700"/>
 
 </details>
 
----
+## 🧩 개인 프로젝트
 
-### 🔧 주요 구현
+### 🔹 Lies of P 모작 (Unreal Engine)
 
-#### 🎮 게임플레이 구조
-- NPC 이동 및 행동 패턴 로직 구현
-- 이벤트 트리거 기반 상호작용 시스템 개발
-- Delegate 기반 이벤트 구조로 시스템 간 결합도 감소
+> UE5 / GAS 기반 3D 액션 RPG  
+> 전투 시스템, AI, 게임플레이 구조 중심 구현
 
-#### 💾 저장 시스템
-- 암호화 JSON 기반 저장 구조 설계
-- 데이터 버전 관리 및 포맷 변경 대응 로직 구현
-- 진행 상태 기준 저장 데이터 정합성 검증 및 보정 처리
+- **기간:** 2025.07 ~ 2025.09  
+- **기술:** Unreal · GAS· C++ · Blueprint
 
->안정적으로 데이터를 유지하는 것을 우선으로 설계했습니다.
+🔗 https://github.com/HaloTwo/LOP  
+🎥 https://youtu.be/6_0rvUXyf8w  
 
-#### ⏱ 오프라인 보상 시스템
-- 마지막 접속 시간 기반 오프라인 보상 계산 로직 구현
-- 건물 생산 구조와 연동된 누적 보상 처리
+#### 🔧 주요 구현
+- GAS 기반 전투 구조 설계  
+- Weapon Trace 기반 공격 판정 처리  
+- Lock-On 시스템 구현  
+- Behavior Tree + EQS 기반 AI 설계  
+- Boss Phase 패턴 전환 구조 구현  
+- Motion Warping 기반 전투 연출  
+- DataAsset 기반 데이터 구조 설계  
 
->장시간 미접속 상황에서도 데이터가 자연스럽게 이어지도록 구성했습니다.
+<br>
 
-#### ⚡ 대규모 NPC 처리 및 최적화
-- 100명 이상 손님 NPC 동시 동작 환경 고려
-- 상태 기반 동적 컴포넌트 부착 구조 구현
-- Component Pool 적용 및 GC 부담 완화
-- GC 부담 완화 및 프레임 안정화
+### 🔹 WildTamer 프로토타입 (Unity)
 
->실제 플레이 상황에서 성능 저하가 발생하지 않도록 설계했습니다.
+> 군집 기반 테이밍 RPG 프로토타입  
+> 자동 전투 및 부대 확장 구조 구현
 
-### 🎮 상호작용 시스템 확장
-- 손님 NPC 전용 탑승 시스템을 플레이어 상호작용으로 확장
-- 탑승 상태 전환 로직 구현
-- 카메라 View Mode 전환 처리
+- **기간:** 2026.03.05 ~ 2026.03.09  
+- **기술:** Unity2D · C#  
 
->기존 시스템을 재사용하는 방향으로 구조를 확장했습니다.
+🔗 https://github.com/HaloTwo/WildTamer  
+🎥 https://youtube.com/shorts/mLd9Y7k4bvM  
 
-#### 🛠 데이터 파이프라인 자동화
-- Google Sheet 데이터를 ScriptableObject로 변환하는 에디터 툴 제작
-- 데이터 변경 시 자동 갱신 구조 구성
+<br>
 
->기획자가 코드 수정 없이 밸런스를 조정할 수 있도록 파이프라인을 구성했습니다.
+### 🔹 기타 프로젝트
 
+<details>
+<summary><strong>🔍 프로젝트 목록 보기</strong></summary>
 
----
+<br>
 
-# 🎮 개인 유니티 프로젝트
+#### 🎮 Pokemon 모작
+- 상태 기반 AI 패턴 및 전투 흐름 구현  
+- State Pattern 기반 구조 설계  
+🔗 https://github.com/HaloTwo/Pokemon  
 
-> 상세 구현 내용 및 코드 구조는 각 GitHub Repository에서 확인 가능합니다.  
-> (※ 시스템/전투 중심 구현 프로젝트)
+<br>
 
+#### 🤖 Nier 모작 (Team Project)
+- Enemy AI 및 Boss 패턴 구현  
+- 전투 시스템 일부 담당  
+🔗 https://github.com/HaloTwo/Nier-Automata  
 
-## WildTamer Prototype (Personal Project)
+<br>
 
-> Wild Tamer 스타일의 군집 기반 테이밍 RPG 프로토타입 프로젝트   
-> 자동 전투와 부대 확장 구조 중심의 게임플레이 시스템 구현   
+#### 🎯 Cuphead 모작
+- 보스 패턴 기반 2D 전투 시스템 구현  
+- 타이밍 기반 공격 구조 설계  
+🔗 https://github.com/HaloTwo/Cuphead  
 
-> • 기간: 2026.03.05 ~ 2026.03.09   
-> • 환경: Unity2D, C#, Github   
-> 
-• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/WildTamer)  
-• Video : [Youtube 영상 링크](https://youtube.com/shorts/mLd9Y7k4bvM?feature=share)  
-
-
-## Pokemon: Scarlet 모작 (Personal Project)
-
-> 상태 패턴 기반 AI 및 게임 시스템 구조 설계 프로젝트  
->
-> • 기간: 2023.06 ~ 2023.07  
-> • 환경: Unity3D, C#, Github
-> 
-• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/Pokemon)  
-• Video : [Youtube 영상 링크](https://www.youtube.com/watch?v=s__GzKLjPf0)  
-
-
-## Nier: Automata 모작 (Team Project)
-
-> Enemy AI, Boss 패턴, 전투 시스템 구현 중심 3D 액션 프로젝트  
->
-> • 기간: 2023.05 ~ 2023.06  
-> • 환경: Unity3D, C#, Github  
-> • 역할: Enemy AI, Boss 패턴, 전투 시스템 구현
->  
-• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/Nier-Automata)  
-• Video : [Youtube 영상 링크](https://youtu.be/h8MQ959f8tk)  
-
-## Cuphead 모작 (Personal Project)
-
-> 보스 패턴 기반 2D 액션 전투 시스템 구현 프로젝트  
->
-> • 기간: 2023.04 ~ 2023.04  
-> • 환경: Unity2D, C#, Github
-> 
-• Repository : [GitHub 포트폴리오 링크](https://github.com/HaloTwo/Cuphead)  
-• Video : [Youtube 영상 링크](https://youtu.be/5bR0k2nC6nk)  
+</details>
 
 ---
 

@@ -102,96 +102,129 @@
 
 | 프로젝트 | 엔진 | 핵심 키워드 | 코드 및 설명 | 영상 |
 |----------|------|------------|------|------|
-| Lies of P 모작 | Unreal 5 | GAS 기반 전투 구조 · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
-| WildTamer 프로토타입 | Unity 2D | 군집 AI 이동 직접 구현 · 자동 전투 | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
-| Pokemon 모작 | Unity 3D | State Pattern AI · 턴제 전투 · 데이터 기반 구조 · 시스템 설계 | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
-| Nier:Automata 모작 (팀) | Unity 3D | Enemy AI · Boss 패턴 · 전투 상호작용 처리 | [GitHub](https://github.com/HaloTwo/Nier-Automata) | [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
-| Cuphead 모작 | Unity 2D | 보스 패턴 설계 · 타이밍 전투 · Coroutine 처리 | [GitHub](https://github.com/HaloTwo/Cuphead) | [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
+| Lies of P | Unreal 5 | 3D 액션 · GAS 기반 전투 구조 · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
+| WildTamer Prototype | Unity 2D | 2D RPG · 군집 AI 이동 · 자동 전투 | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
+| Pokemon:Scarlet | Unity 3D | 턴제 RPG · State Pattern 기반 AI · 데이터 기반 시스템 구조 | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
+| Nier:Automata (팀) | Unity 3D | 3D 액션 · Enemy AI · Boss 패턴 · 전투 상호작용 처리 | [GitHub](https://github.com/HaloTwo/Nier-Automata) | [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
+| Cuphead | Unity 2D | 2D 액션 · 보스 패턴 설계 · 타이밍 전투 · Coroutine 처리 | [GitHub](https://github.com/HaloTwo/Cuphead) | [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
 
 <details>
 <summary><strong>🔍 주요 프로젝트 상세 보기</strong></summary>
   
 ---
 
-### 🔹 Lies of P 모작 (Unreal)
+### 🔹 Lies of P (Unreal 5)
 
-> UE5 / GAS 기반 3D 액션 RPG  
-> 전투 시스템, AI, 게임플레이 구조 중심 설계 및 구현
+> UE5 / GAS 기반 3D 액션 RPG 개인 프로젝트  
+> 전투 판정, 타겟팅, AI 패턴, 데이터 구조를 중심으로 액션 게임의 전투 흐름을 구현했습니다.
 
 - **기간:** 2025.07 ~ 2025.09  
-- **기술:** Unreal · C++ · Blueprint · GAS  
+- **기술:** Unreal Engine 5 · C++ · Blueprint · GAS · Behavior Tree · EQS  
 
 #### 🔧 주요 구현
-- GAS 기반 Ability / Effect / Tag 구조 설계  
-- Weapon Trace 기반 프레임 간 충돌 보정 처리  
-- Lock-On 타겟팅 및 카메라 제어 시스템 구현  
-- Behavior Tree + EQS 기반 적 AI 의사결정 구조 설계  
-- Boss Phase 전환 및 패턴 분리 구조 구현  
-- Motion Warping + Anim Notify 기반 전투 연출 처리  
-- DataAsset 기반 무기 및 스킬 데이터 구조 설계
+- Gameplay Ability System 기반 Ability / Effect / Attribute / Tag 구조 설계
+- Ability 단위로 공격, 회피, 락온, 피격 등 전투 기능 분리
+- Weapon Trace 기반 공격 판정 구현
+- 빠른 공격 모션에서도 프레임 누락을 줄이기 위해 이전 위치와 현재 위치 사이를 Trace하는 방식 적용
+- Lock-On 타겟 탐색, 카메라 보정, 락온 상태 전용 이동 처리 구현
+- Behavior Tree + EQS 기반 적 탐색 및 전투 AI 구현
+- Boss HP 조건에 따른 Phase 전환 및 패턴 분리 구조 구현
+- Motion Warping과 Anim Notify를 활용한 공격 이동 보정 및 전투 타이밍 제어
+- DataAsset 기반 무기 / 스킬 / 패턴 데이터 구조 설계
+
+#### 📌 구현 의도
+- 기능을 하드코딩하지 않고 Ability, GameplayTag, DataAsset 중심으로 분리하여 확장 가능한 구조를 목표로 구현했습니다.
+- 새로운 무기, 공격 패턴, AI 패턴을 추가할 때 기존 코드를 크게 수정하지 않고 데이터와 Ability 추가로 확장할 수 있도록 구성했습니다.
 
 ---
 
-### 🔹 WildTamer 프로토타입 (Unity 2D)
+### 🔹 WildTamer Prototype (Unity 2D)
 
-> 군집 기반 테이밍 RPG 프로토타입  
-> 부대 행동과 자동 전투 중심의 게임플레이 구조 구현
+> WildTamer 스타일의 2D 군집 기반 테이밍 RPG 프로토타입  
+> 다수의 아군 유닛이 플레이어를 따라다니며 자동 전투를 수행하는 구조를 구현했습니다.
 
 - **기간:** 2026.03.05 ~ 2026.03.09  
-- **기술:** Unity2D · C#  
+- **기술:** Unity 2D · C#  
 
 #### 🔧 주요 구현
-- 부대 기반 군집 AI 이동 및 간격 유지 로직 설계  
-- 타겟 선택 및 자동 전투 흐름 구조 구현  
-- Object Pool 기반 유닛 및 이펙트 관리 구조 적용  
+- 플레이어를 중심으로 한 부대 유닛 이동 및 간격 유지 로직 구현
+- 다수 유닛이 서로 겹치지 않도록 위치 보정 및 추적 로직 처리
+- 적 탐색, 타겟 선택, 자동 공격 흐름 구현
+- 아군 / 적 유닛의 상태 기반 행동 처리
+- Object Pool 기반 유닛 및 이펙트 재사용 구조 적용
+- 전투 중 유닛 생성 / 제거가 반복되는 상황에서 Instantiate / Destroy 사용을 줄이도록 구성
+
+#### 📌 구현 의도
+- 짧은 기간 안에 핵심 전투 루프를 검증하기 위해 이동, 탐색, 공격, 풀링 구조를 우선 구현했습니다.
+- 단순한 자동 전투가 아니라 다수 유닛이 동시에 움직이는 상황에서 충돌감과 간격 유지가 자연스럽게 보이도록 구성했습니다.
 
 ---
 
-### 🔹 Pokemon 모작 (Unity 3D)
+### 🔹 Pokemon: Scarlet (Unity 3D)
 
-> 오픈월드 RPG 구조 기반 시스템 및 AI 구현 프로젝트  
-> 데이터 중심 구조와 상태 기반 AI 설계에 중점
+> Pokemon 스타일의 3D RPG 모작 프로젝트  
+> 턴제 전투, 캐릭터 상태 관리, 인벤토리 및 데이터 기반 시스템 구현에 중점을 둔 프로젝트입니다.
 
 - **기간:** 2023.06 ~ 2023.07  
-- **기술:** Unity3D · C#  
+- **기술:** Unity 3D · C#  
 
 #### 🔧 주요 구현
-- State Pattern 기반 전투 및 AI 상태 전이 구조 설계  
-- 인벤토리, 상점, 데이터 기반 게임 시스템 구현  
-- Object Pool, LOD, Occlusion Culling 등 성능 최적화 적용  
-- ScriptableObject + Json 기반 데이터 관리 구조 설계  
+- State Pattern 기반 캐릭터 / AI 상태 전이 구조 설계
+- 탐색, 이동, 전투 진입, 공격 선택 등 상태별 로직 분리
+- 턴제 전투 흐름 구현
+- 인벤토리, 상점, 아이템 사용 등 RPG 기본 시스템 구현
+- ScriptableObject + Json 기반 데이터 관리 구조 설계
+- Object Pool을 활용한 반복 생성 오브젝트 관리
+- LOD, Occlusion Culling 등을 활용한 씬 최적화 적용
+
+#### 📌 구현 의도
+- 캐릭터와 AI의 행동을 상태 단위로 분리하여 전투와 필드 로직이 섞이지 않도록 구성했습니다.
+- 아이템, 상점, 전투 데이터 등을 데이터 기반으로 관리하여 기능 추가와 밸런스 수정이 쉽도록 설계했습니다.
 
 ---
 
-### 🔹 Nier: Automata 모작 (Unity 3D, Team)
+### 🔹 Nier: Automata (Unity 3D, Team Project)
 
 > 3D 액션 전투 중심 팀 프로젝트  
-> Enemy AI 및 Boss 패턴 설계와 전투 흐름 제어 담당
+> Enemy AI, Boss 패턴, 공격 / 피격 상호작용 등 전투 흐름 구현을 담당했습니다.
 
 - **기간:** 2023.05 ~ 2023.06  
-- **기술:** Unity3D · C#  
+- **기술:** Unity 3D · C#  
+- **역할:** Enemy AI · Boss Pattern · Combat Interaction 구현
 
 #### 🔧 주요 구현
-- Enemy AI 상태 머신 기반 행동 로직 구현  
-- Boss 패턴 설계 및 전투 흐름 제어 구조 구현  
-- Combat Interaction (공격/피격/경직) 처리 시스템 구현  
-- Object Pool 기반 전투 오브젝트 최적화  
+- Enemy AI 상태 머신 기반 행동 로직 구현
+- 적의 추적, 공격, 대기, 피격 상태 전환 처리
+- Boss 패턴 설계 및 패턴 실행 흐름 구현
+- 공격 / 피격 / 경직 등 전투 상호작용 처리
+- Object Pool 기반 투사체 및 전투 오브젝트 최적화
+- 팀 프로젝트 내 전투 담당 파트 구현 및 연동
+
+#### 📌 구현 의도
+- 적 AI와 보스 패턴을 상태 단위로 분리하여 패턴 추가 및 수정이 쉽도록 구성했습니다.
+- 플레이어 공격과 적 피격 반응이 자연스럽게 이어지도록 전투 상호작용 흐름을 중심으로 구현했습니다.
 
 ---
 
-### 🔹 Cuphead 모작 (Unity 2D)
+### 🔹 Cuphead (Unity 2D)
 
-> 보스 패턴 중심 2D 액션 전투 프로젝트  
-> 타이밍 기반 공격과 패턴 반복 구조 설계
+> Cuphead 스타일의 2D 보스전 모작 프로젝트  
+> 보스 패턴, 타이밍 기반 공격, 전투 연출 흐름 구현에 중점을 둔 프로젝트입니다.
 
 - **기간:** 2023.04 ~ 2023.04  
-- **기술:** Unity2D · C#  
+- **기술:** Unity 2D · C#  
 
 #### 🔧 주요 구현
-- 보스 패턴 기반 전투 시스템 설계 및 구현  
-- Coroutine 기반 비동기 전투 처리  
-- Object Pool 및 Scene Async Loading 적용  
-- 카메라 이동 및 전투 연출 시스템 구현  
+- 보스 패턴 기반 전투 시스템 설계 및 구현
+- Coroutine 기반 패턴 순서 및 공격 타이밍 제어
+- 투사체, 이펙트 등 반복 생성 오브젝트에 Object Pool 적용
+- Scene Async Loading을 활용한 씬 전환 처리
+- 카메라 이동 및 전투 연출 처리
+- 플레이어 공격 / 피격 / 회피 흐름 구현
+
+#### 📌 구현 의도
+- 보스전의 핵심인 패턴 반복, 타이밍, 회피 흐름을 중심으로 구현했습니다.
+- Coroutine을 활용해 패턴 순서를 제어하고, Object Pool을 적용해 전투 중 반복 생성 비용을 줄였습니다.
 
 </details>
 

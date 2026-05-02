@@ -102,9 +102,9 @@
 
 | 프로젝트 | 엔진 | 핵심 키워드 | 코드 및 설명 | 영상 |
 |----------|------|------------|------|------|
-| Lies of P | Unreal 5 | 3D 액션 · GAS 기반 전투 구조 · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
+| Lies of P | Unreal 5 | 3D 액션 · GAS 기반 구조 · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
 | WildTamer Prototype | Unity 2D | 2D RPG · 군집 AI 이동 · 자동 전투 | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
-| Pokemon:Scarlet | Unity 3D | 턴제 RPG · State Pattern 기반 AI · 데이터 기반 시스템 구조 | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
+| Pokemon:Scarlet | Unity 3D | 턴제 RPG · State Pattern 기반 AI · 데이터 기반 구조 | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
 | Nier:Automata (팀) | Unity 3D | 3D 액션 · Enemy AI · Boss 패턴 · 전투 상호작용 처리 | [GitHub](https://github.com/HaloTwo/Nier-Automata) | [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
 | Cuphead | Unity 2D | 2D 액션 · 보스 패턴 설계 · 타이밍 전투 · Coroutine 처리 | [GitHub](https://github.com/HaloTwo/Cuphead) | [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
 

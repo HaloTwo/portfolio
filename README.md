@@ -102,11 +102,11 @@
 
 | 프로젝트 | 엔진 | 핵심 키워드 | 코드 및 설명 | 영상 |
 |----------|------|------------|------|------|
-| Lies of P 모작 | Unreal 5 | GAS · 전투 시스템 · AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
-| WildTamer 프로토타입 | Unity 2D | 군집 AI · 자동 전투 | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
-| Pokemon 모작 | Unity 3D | State Pattern · AI | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
-| Nier:Automata 모작 (팀) | Unity 3D | Enemy AI · Boss 패턴 | [GitHub](https://github.com/HaloTwo/Nier-Automata) | [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
-| Cuphead 모작 | Unity 2D | 보스 패턴 · 타이밍 | [GitHub](https://github.com/HaloTwo/Cuphead) | [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
+| Lies of P 모작 | Unreal 5 | GAS 기반 전투 구조 · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
+| WildTamer 프로토타입 | Unity 2D | 군집 AI 이동 직접 구현 · 자동 전투 | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
+| Pokemon 모작 | Unity 3D | State Pattern AI · 턴제 전투 · 데이터 기반 구조 · 시스템 설계 | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
+| Nier:Automata 모작 (팀) | Unity 3D | Enemy AI · Boss 패턴 · 전투 상호작용 처리 | [GitHub](https://github.com/HaloTwo/Nier-Automata) | [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
+| Cuphead 모작 | Unity 2D | 보스 패턴 설계 · 타이밍 전투 · Coroutine 처리 | [GitHub](https://github.com/HaloTwo/Cuphead) | [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
 
 <details>
 <summary><strong>🔍 주요 프로젝트 상세 보기</strong></summary>

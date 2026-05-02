@@ -102,15 +102,60 @@
 
 | 프로젝트 | 엔진 | 핵심 키워드 | 코드 및 설명 | 영상 |
 |----------|------|------------|------|------|
+| Project MORPG (진행 중) | Unity 6 | 3D 쿼터뷰 MORPG · Server-Driven Client · Packet Architecture · DB 연동 기반 설계 · 조이스틱 이동 · Codex 기반 Unity 자동화 | [GitHub](https://github.com/HaloTwo/Project_MORPG) | 준비 중 |
 | Lies of P | Unreal 5 | 3D 액션 · GAS 기반 구조 · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
 | WildTamer Prototype | Unity 2D | 2D RPG · 군집 AI 이동 · 자동 전투 | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
 | Pokemon:Scarlet | Unity 3D | 턴제 RPG · State Pattern 기반 AI · 데이터 기반 구조 | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
 | Nier:Automata (팀) | Unity 3D | 3D 액션 · Enemy AI · Boss 패턴 · 전투 상호작용 처리 | [GitHub](https://github.com/HaloTwo/Nier-Automata) | [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
 | Cuphead | Unity 2D | 2D 액션 · 보스 패턴 설계 · 타이밍 전투 · Coroutine 처리 | [GitHub](https://github.com/HaloTwo/Cuphead) | [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
 
+
 <details>
 <summary><strong>🔍 주요 프로젝트 상세 보기</strong></summary>
-  
+
+---
+
+### 🔹 Project MORPG (Unity 6, 진행 중)
+
+> Unity 6 기반 3D 쿼터뷰 MORPG 클라이언트 프로토타입  
+> 추후 C++ IOCP 서버와 MariaDB 연동을 고려하여 로그인, 캐릭터 선택, 씬 전환, 패킷 처리, 조이스틱 이동 구조를 먼저 설계하고 있습니다.
+
+> 또한 Codex 기반 LLM 개발 워크플로우와 Unity MCP 연동을 함께 테스트하며,  
+> Unity Editor 조작, 스크립트 생성, 씬 구성, README 작성 및 GitHub 반영까지  
+> AI 보조 개발 흐름을 실험하고 있습니다.
+
+- **기간:** 2026.05 ~ 진행 중  
+- **기술:** Unity 6 · C# · uGUI · Unity MCP · Codex  
+- **목표:** 온라인 MORPG 클라이언트 구조 설계 및 서버 연동 기반 구축  
+- **추가 목표:** Codex 기반 Unity 자동화 / LLM 보조 개발 워크플로우 검증
+
+#### 🔧 현재 구현
+- LoginScene → LoadingScene → CharacterSelectScene → GameScene 흐름 구성
+- uGUI 기반 로그인 / 로딩 / 캐릭터 선택 / 게임 HUD UI 구현
+- 전사, 궁수, 도적 3개 직업의 Mock 캐릭터 데이터 구성
+- CharacterData, EquipmentData, InventoryItemData, SkillData 등 RPG 데이터 구조 분리
+- MockServerSimulator를 활용한 로그인 / 캐릭터 목록 / 게임 입장 흐름 시뮬레이션
+- NetworkManager, PacketQueue, PacketDispatcher 기반 패킷 처리 구조 설계
+- LoginRequest, LoginResponse, CharacterList, EnterGame 패킷 구조 구현
+- 쿼터뷰 카메라 및 가상 조이스틱 기반 캐릭터 이동 구현
+- 에디터 테스트용 WASD / 방향키 입력 지원
+- 선택한 캐릭터의 직업에 따라 스킬 슬롯 및 캡슐 색상 적용
+- Codex와 Unity MCP를 활용한 스크립트 생성, 씬 구성, 오류 확인 및 GitHub README 반영 테스트
+
+#### 📌 구현 의도
+- 실제 서버와 DB가 완성되기 전에도 클라이언트 흐름을 검증할 수 있도록 Mock 서버 구조를 먼저 구현했습니다.
+- 추후 `MockServerSimulator`를 C++ IOCP 서버로 교체하더라도 UI, 캐릭터 선택, 패킷 처리 흐름이 크게 바뀌지 않도록 Network / Packet / Data 구조를 분리했습니다.
+- 모바일 쿼터뷰 MORPG 방향성에 맞춰 클릭 이동 대신 가상 조이스틱 기반 이동으로 변경했습니다.
+- 반복적인 초기 구조 작성, 씬 구성, 코드 수정, README 정리 과정에서 Codex 기반 LLM 개발 보조가 어느 정도까지 실무 흐름에 활용 가능한지 함께 검증하고 있습니다.
+
+#### 🚧 향후 개발 계획
+- C++ IOCP 서버와 TCP Socket 연동
+- MariaDB 기반 계정 / 캐릭터 / 장비 / 인벤토리 저장 구조 구현
+- Mock 데이터 제거 후 서버 응답 기반 캐릭터 목록 처리
+- 원격 플레이어 Spawn / 이동 보간 / 스킬 브로드캐스트 구현
+- 직업별 모델, 애니메이션, 스킬 이펙트 적용
+- Unity MCP / Codex 기반 자동화 워크플로우 정리 및 개발 로그화
+
 ---
 
 ### 🔹 Lies of P (Unreal 5)
@@ -227,6 +272,7 @@
 - Coroutine을 활용해 패턴 순서를 제어하고, Object Pool을 적용해 전투 중 반복 생성 비용을 줄였습니다.
 
 </details>
+
 
 # 🎓 학력 및 교육
 

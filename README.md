@@ -100,14 +100,14 @@
 
 ### 🎮 프로젝트 요약
 
-| 프로젝트 | 엔진 | 핵심 키워드 | 코드 및 설명 | 영상 |
-|----------|------|------------|------|------|
-| Project MORPG (진행 중) | Unity 6 | 3D 쿼터뷰 MORPG · C++ TCP 서버 · 서버 검증형 캐릭터 흐름 · MariaDB 저장 구조 · RPG 시스템 확장 구조 | [GitHub](https://github.com/HaloTwo/Project_MORPG) | 준비 중 |
-| Lies of P | Unreal 5 | 3D 액션 · GAS 기반 전투 구조 · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
-| WildTamer Prototype | Unity 2D | 2D RPG · 군집 AI 이동 · 자동 전투 · Object Pool | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
-| Pokemon:Scarlet | Unity 3D | 턴제 RPG · State Pattern 기반 AI · 데이터 기반 전투 구조 | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
-| Nier:Automata (팀) | Unity 3D | 3D 액션 · Enemy AI · Boss 패턴 · 전투 상호작용 처리 | [GitHub](https://github.com/HaloTwo/Nier-Automata) | [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
-| Cuphead | Unity 2D | 2D 액션 · 보스 패턴 설계 · 타이밍 기반 전투 · Coroutine 처리 | [GitHub](https://github.com/HaloTwo/Cuphead) | [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
+| 프로젝트 | 엔진 | 장르 | 핵심 구현 | 링크 |
+|----------|------|------|-----------|------|
+| Project MORPG (진행 중) | Unity 6 | 3D MORPG | C++ TCP 서버 · MariaDB · 패킷 처리 · 캐릭터 영속화 | [GitHub](https://github.com/HaloTwo/Project_MORPG) |
+| Lies of P | Unreal 5 | 3D 액션 RPG | GAS · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) / [영상](https://youtu.be/6_0rvUXyf8w) |
+| WildTamer Prototype | Unity 6 | 2D 캐주얼 RPG | 커스텀 군집 AI · 자동 전투 · Shader Fog · Squad Control | [GitHub](https://github.com/HaloTwo/WildTamer) / [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
+| Pokemon:Scarlet | Unity | 3D 턴제 RPG | State Pattern · Enemy AI · 데이터 구조 · 오픈월드 턴제 전투 | [GitHub](https://github.com/HaloTwo/Pokemon) / [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
+| Nier:Automata (팀) | Unity | 3D 액션 RPG | Enemy AI · Boss 패턴 · 전투 처리 · Phase 전환 | [GitHub](https://github.com/HaloTwo/Nier-Automata) / [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
+| Cuphead | Unity | 2D 플랫포머 액션 | Boss 패턴 · Coroutine · Projectile · Phase 전환 | [GitHub](https://github.com/HaloTwo/Cuphead) / [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
 
 
 <details>
@@ -164,6 +164,8 @@
 - 몬스터 사망 시 EXP / Gold / Drop Item 지급
 - 이동 패킷 서버 검증
 - Blocking TCP 서버를 IOCP 기반 구조로 개선
+
+---
 
 ### 🔹 Lies of P (Unreal 5)
 

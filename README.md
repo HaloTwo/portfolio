@@ -117,46 +117,53 @@
 
 ### 🔹 Project MORPG (Unity 6, 진행 중)
 
-> Unity 6 기반 3D 쿼터뷰 MORPG 클라이언트 프로토타입  
-> 추후 C++ IOCP 서버와 MariaDB 연동을 고려하여 로그인, 캐릭터 선택, 씬 전환, 패킷 처리, 조이스틱 이동 구조를 먼저 설계하고 있습니다.
+> Unity 6 기반 3D 쿼터뷰 MORPG 프로젝트입니다.  
+> Unity 클라이언트가 계정/캐릭터 데이터를 직접 판단하지 않고,  
+> **C++ TCP 서버가 로그인, 회원가입, 캐릭터 생성/삭제, 게임 입장 흐름을 검증한 뒤 MariaDB에 저장하는 구조**로 구현하고 있습니다.
 
-> 또한 Codex 기반 LLM 개발 워크플로우와 Unity MCP 연동을 함께 테스트하며,  
-> Unity Editor 조작, 스크립트 생성, 씬 구성, README 작성 및 GitHub 반영까지  
-> AI 보조 개발 흐름을 실험하고 있습니다.
+> 현재는 온라인 RPG의 가장 앞단인  
+> **계정 인증 → 캐릭터 슬롯 → 캐릭터 생성/삭제 → 게임 입장** 흐름을 우선 구현했습니다.  
+> 이후 인벤토리, 장비, 전투, 스킬 사용 구조를 서버 검증 방식으로 확장할 예정입니다.
 
-- **기간:** 2026.05 ~ 진행 중  
-- **기술:** Unity 6 · C# · uGUI · Unity MCP · Codex  
-- **목표:** 온라인 MORPG 클라이언트 구조 설계 및 서버 연동 기반 구축  
-- **추가 목표:** Codex 기반 Unity 자동화 / LLM 보조 개발 워크플로우 검증
+- **기간:** 2026.05.01 ~ 진행 중
+- **기술:** Unity 6 · C# · C++17 · Winsock TCP Server · MariaDB · DBeaver · Codex
+- **목표:** Unity 클라이언트와 C++ TCP 서버를 분리한 서버 중심 MORPG 구조 설계
+- **확장 목표:** 인벤토리 / 장비 / 전투 / 스킬 사용 흐름을 서버 검증 구조로 확장
 
 #### 🔧 현재 구현
+
 - LoginScene → LoadingScene → CharacterSelectScene → GameScene 흐름 구성
-- uGUI 기반 로그인 / 로딩 / 캐릭터 선택 / 게임 HUD UI 구현
-- 전사, 궁수, 도적 3개 직업의 Mock 캐릭터 데이터 구성
-- CharacterData, EquipmentData, InventoryItemData, SkillData 등 RPG 데이터 구조 분리
-- MockServerSimulator를 활용한 로그인 / 캐릭터 목록 / 게임 입장 흐름 시뮬레이션
-- NetworkManager, PacketQueue, PacketDispatcher 기반 패킷 처리 구조 설계
-- LoginRequest, LoginResponse, CharacterList, EnterGame 패킷 구조 구현
-- 쿼터뷰 카메라 및 가상 조이스틱 기반 캐릭터 이동 구현
-- 에디터 테스트용 WASD / 방향키 입력 지원
-- 선택한 캐릭터의 직업에 따라 스킬 슬롯 및 캡슐 색상 적용
-- Codex와 Unity MCP를 활용한 스크립트 생성, 씬 구성, 오류 확인 및 GitHub README 반영 테스트
+- Unity TCP Client와 C++ Winsock TCP Server 연결
+- 텍스트 프로토콜 기반 요청/응답 패킷 처리
+- NetworkManager, TcpServerConnection, ServerTextProtocol, PacketDispatcher 구조 분리
+- C++ 서버의 TcpServer, ClientSession, PacketCodec, AuthService 구조 구현
+- Repository Pattern 기반 DB 접근 구조 구성
+- MariaDB 계정 / 캐릭터 / 기본 스킬 저장 구조 구현
+- 계정당 캐릭터 3슬롯 구조 구현
+- 캐릭터 생성,삭제 및 슬롯 유지 처리
+- 로그인 / 회원가입 / 캐릭터 생성 / 캐릭터 삭제 / 게임 입장 흐름 서버 검증
+- 서버 미실행 또는 연결 끊김 시 종료 팝업 처리
 
 #### 📌 구현 의도
-- 실제 서버와 DB가 완성되기 전에도 클라이언트 흐름을 검증할 수 있도록 Mock 서버 구조를 먼저 구현했습니다.
-- 추후 `MockServerSimulator`를 C++ IOCP 서버로 교체하더라도 UI, 캐릭터 선택, 패킷 처리 흐름이 크게 바뀌지 않도록 Network / Packet / Data 구조를 분리했습니다.
-- 모바일 쿼터뷰 MORPG 방향성에 맞춰 클릭 이동 대신 가상 조이스틱 기반 이동으로 변경했습니다.
-- 반복적인 초기 구조 작성, 씬 구성, 코드 수정, README 정리 과정에서 Codex 기반 LLM 개발 보조가 어느 정도까지 실무 흐름에 활용 가능한지 함께 검증하고 있습니다.
+
+- Unity 클라이언트가 DB에 직접 접근하지 않고, 모든 계정/캐릭터 요청을 C++ 서버를 통해 처리하도록 분리했습니다.
+- 클라이언트는 입력과 UI 흐름을 담당하고, 서버는 로그인 검증, 계정 생성, 캐릭터 생성/삭제, 캐릭터 입장 가능 여부를 판단합니다.
+- DB에는 계정, 캐릭터 슬롯, 직업, 기본 위치, 기본 스킬처럼 다시 접속해도 유지되어야 하는 데이터를 저장합니다.
+- 캐릭터 슬롯은 단순 리스트 순서가 아니라 `slot_index` 기준으로 관리하여, 중간 슬롯을 삭제해도 다른 슬롯 위치가 밀리지 않도록 구성했습니다.
+- 초기에는 빠른 검증을 위해 Blocking TCP와 Text Protocol을 사용했지만, Unity 패킷 처리, 서버 세션, 서비스 계층, Repository 계층을 분리하여 추후 IOCP / Binary Packet 구조로 확장할 수 있도록 설계했습니다.
 
 #### 🚧 향후 개발 계획
-- C++ IOCP 서버와 TCP Socket 연동
-- MariaDB 기반 계정 / 캐릭터 / 장비 / 인벤토리 저장 구조 구현
-- Mock 데이터 제거 후 서버 응답 기반 캐릭터 목록 처리
-- 원격 플레이어 Spawn / 이동 보간 / 스킬 브로드캐스트 구현
-- 직업별 모델, 애니메이션, 스킬 이펙트 적용
-- Unity MCP / Codex 기반 자동화 워크플로우 정리 및 개발 로그화
 
----
+- 캐릭터 이름 입력 기능
+- 비밀번호 해시 저장 구조 적용
+- 인벤토리 아이템 획득 / 사용 / 장착 구조
+- 장비 슬롯 및 스탯 반영 구조
+- 몬스터 Spawn / AI / 전투 타겟팅
+- 일반 공격 / 스킬 사용 패킷 구조
+- 서버 권위 기반 데미지 계산 및 HP 변경 처리
+- 몬스터 사망 시 EXP / Gold / Drop Item 지급
+- 이동 패킷 서버 검증
+- Blocking TCP 서버를 IOCP 기반 구조로 개선
 
 ### 🔹 Lies of P (Unreal 5)
 

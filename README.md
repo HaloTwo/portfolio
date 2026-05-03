@@ -102,7 +102,7 @@
 
 | 프로젝트 | 엔진 | 핵심 키워드 | 코드 및 설명 | 영상 |
 |----------|------|------------|------|------|
-| Project MORPG (진행 중) | Unity 6 | 3D 쿼터뷰 MORPG · C++ TCP 서버 · 서버 검증형 로그인/캐릭터 흐름 · 패킷 기반 통신 · MariaDB 저장 구조 | [GitHub](https://github.com/HaloTwo/Project_MORPG) | 준비 중 |
+| Project MORPG (진행 중) | Unity 6 | 3D 쿼터뷰 MORPG · C++ TCP 서버 · 서버 검증형 캐릭터 흐름 · MariaDB 저장 구조 · RPG 시스템 확장 구조 | [GitHub](https://github.com/HaloTwo/Project_MORPG) | 준비 중 |
 | Lies of P | Unreal 5 | 3D 액션 · GAS 기반 전투 구조 · Weapon Trace · Lock-On · Boss Phase AI | [GitHub](https://github.com/HaloTwo/LOP) | [영상](https://youtu.be/6_0rvUXyf8w) |
 | WildTamer Prototype | Unity 2D | 2D RPG · 군집 AI 이동 · 자동 전투 · Object Pool | [GitHub](https://github.com/HaloTwo/WildTamer) | [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
 | Pokemon:Scarlet | Unity 3D | 턴제 RPG · State Pattern 기반 AI · 데이터 기반 전투 구조 | [GitHub](https://github.com/HaloTwo/Pokemon) | [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |

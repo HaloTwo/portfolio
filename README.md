@@ -126,12 +126,12 @@
 
 | 프로젝트 | 엔진 | 장르 | 핵심 구현 | 링크 |
 |----------|------|------|-----------|------|
-| Project MORPG(개발중) | Unity 6 | 3D MORPG | C++ TCP 서버 · MariaDB · 캐릭터 영속화 | [GitHub](https://github.com/HaloTwo/Project_MORPG) |
-| Lies of P | Unreal 5 | 3D 액션 RPG | GAS · Weapon Trace · Lock-On · EQS · AI  | [GitHub](https://github.com/HaloTwo/LOP) / [영상](https://youtu.be/6_0rvUXyf8w) |
+| Project MORPG (개발 중) | Unity 6 | 3D MORPG | C++ TCP 서버 · MariaDB · 캐릭터 영속화 · 위치 동기화 | [GitHub](https://github.com/HaloTwo/Project_MORPG) |
+| Lies of P | Unreal 5 | 3D 액션 RPG | GAS · Weapon Trace · Lock-On · BT/EQS AI | [GitHub](https://github.com/HaloTwo/LOP) / [영상](https://youtu.be/6_0rvUXyf8w) |
 | WildTamer | Unity 6 | 2D RPG | 커스텀 군집 AI · 자동 전투 · Shader Fog | [GitHub](https://github.com/HaloTwo/WildTamer) / [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
-| Pokemon: Scarlet | Unity | 3D 턴제 RPG | State Pattern · Enemy AI · 데이터 구조 | [GitHub](https://github.com/HaloTwo/Pokemon) / [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
-| Nier:Automata | Unity | 3D 액션 RPG | Enemy AI · Boss 패턴 · Phase 전환 | [GitHub](https://github.com/HaloTwo/Nier-Automata) / [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
-| Cuphead | Unity | 2D 액션 RPG | Boss 패턴 · Coroutine · Projectile | [GitHub](https://github.com/HaloTwo/Cuphead) / [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
+| Pokemon: Scarlet | Unity | 3D 턴제 RPG | State Pattern · Enemy AI · 데이터 구조 · 턴제 전투 | [GitHub](https://github.com/HaloTwo/Pokemon) / [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
+| Nier:Automata | Unity | 3D 액션 RPG | Enemy AI · Boss 패턴 · 전투 처리 · Phase 전환 | [GitHub](https://github.com/HaloTwo/Nier-Automata) / [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
+| Cuphead | Unity | 2D 액션 | Boss 패턴 · Coroutine · Projectile | [GitHub](https://github.com/HaloTwo/Cuphead) / [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
 
 
 <details>
@@ -143,10 +143,10 @@
 
 > Unity 6 기반 3D 쿼터뷰 MORPG 프로젝트입니다.  
 > Unity 클라이언트가 계정/캐릭터 데이터를 직접 판단하지 않고,  
-> **C++ TCP 서버가 로그인, 회원가입, 캐릭터 생성/삭제, 게임 입장 흐름을 검증한 뒤 MariaDB에 저장하는 구조**로 구현하고 있습니다.
+> **C++ TCP 서버가 로그인, 회원가입, 캐릭터 생성/삭제, 게임 입장, 원격 플레이어 동기화 흐름을 처리하고 MariaDB에 영구 데이터를 저장하는 구조**로 구현하고 있습니다.
 
-> 현재는 온라인 RPG의 가장 앞단인  
-> **계정 인증 → 캐릭터 슬롯 → 캐릭터 생성/삭제 → 게임 입장** 흐름을 우선 구현했습니다.  
+> 현재는 온라인 RPG의 기본 흐름인  
+> **계정 인증 → 캐릭터 슬롯 → 캐릭터 생성/삭제 → 게임 입장 → 원격 플레이어 위치 동기화**까지 구현했습니다.  
 > 이후 인벤토리, 장비, 전투, 스킬 사용 구조를 서버 검증 방식으로 확장할 예정입니다.
 
 - **기간:** 2026.05.01 ~ 진행 중
@@ -161,33 +161,23 @@
 - 텍스트 프로토콜 기반 요청/응답 패킷 처리
 - NetworkManager, TcpServerConnection, ServerTextProtocol, PacketDispatcher 구조 분리
 - C++ 서버의 TcpServer, ClientSession, PacketCodec, AuthService 구조 구현
-- Repository Pattern 기반 DB 접근 구조 구성
-- MariaDB 계정 / 캐릭터 / 기본 스킬 저장 구조 구현
-- 계정당 캐릭터 3슬롯 구조 구현
-- 캐릭터 생성,삭제 및 슬롯 유지 처리
-- 로그인 / 회원가입 / 캐릭터 생성 / 캐릭터 삭제 / 게임 입장 흐름 서버 검증
+- Repository Pattern 기반 MariaDB 접근 구조 구성
+- 로그인 / 회원가입 / 캐릭터 생성 / 캐릭터 삭제 / 게임 입장 흐름 서버 처리
+- 비밀번호 SHA-256 해시 저장 및 기존 평문 테스트 계정 마이그레이션
+- 계정당 캐릭터 3슬롯 구조와 `slot_index` 기반 슬롯 유지 처리
+- 캐릭터 이름 입력 및 클라이언트/서버 양쪽 검증
+- 두 클라이언트 접속 시 원격 플레이어 Spawn / Move / Stop / Despawn 동기화
+- 원격 플레이어 위치 보간 및 Move 패킷 기반 복구 생성
+- 인게임 채팅 UI와 TCP 채팅 송수신 흐름 구현
 - 서버 미실행 또는 연결 끊김 시 종료 팝업 처리
 
 #### 📌 구현 의도
 
-- Unity 클라이언트가 DB에 직접 접근하지 않고, 모든 계정/캐릭터 요청을 C++ 서버를 통해 처리하도록 분리했습니다.
-- 클라이언트는 입력과 UI 흐름을 담당하고, 서버는 로그인 검증, 계정 생성, 캐릭터 생성/삭제, 캐릭터 입장 가능 여부를 판단합니다.
-- DB에는 계정, 캐릭터 슬롯, 직업, 기본 위치, 기본 스킬처럼 다시 접속해도 유지되어야 하는 데이터를 저장합니다.
-- 캐릭터 슬롯은 단순 리스트 순서가 아니라 `slot_index` 기준으로 관리하여, 중간 슬롯을 삭제해도 다른 슬롯 위치가 밀리지 않도록 구성했습니다.
-- 초기에는 빠른 검증을 위해 Blocking TCP와 Text Protocol을 사용했지만, Unity 패킷 처리, 서버 세션, 서비스 계층, Repository 계층을 분리하여 추후 IOCP / Binary Packet 구조로 확장할 수 있도록 설계했습니다.
-
-#### 🚧 향후 개발 계획
-
-- 캐릭터 이름 입력 기능
-- 비밀번호 해시 저장 구조 적용
-- 인벤토리 아이템 획득 / 사용 / 장착 구조
-- 장비 슬롯 및 스탯 반영 구조
-- 몬스터 Spawn / AI / 전투 타겟팅
-- 일반 공격 / 스킬 사용 패킷 구조
-- 서버 권위 기반 데미지 계산 및 HP 변경 처리
-- 몬스터 사망 시 EXP / Gold / Drop Item 지급
-- 이동 패킷 서버 검증
-- Blocking TCP 서버를 IOCP 기반 구조로 개선
+- Unity 클라이언트가 DB에 직접 접근하지 않고, 계정/캐릭터 관련 요청은 C++ 서버를 통해 처리하도록 분리했습니다.
+- 클라이언트는 입력, UI, 연출, 패킷 송수신을 담당하고, 서버는 계정 검증, 캐릭터 생성/삭제, 입장 가능 여부, 원격 플레이어 상태 전달을 담당합니다.
+- DB에는 계정, 캐릭터 슬롯, 직업, 위치, 기본 스킬처럼 다시 접속해도 유지되어야 하는 데이터를 저장합니다.
+- 캐릭터 슬롯은 `slot_index` 기준으로 관리하여 중간 슬롯을 삭제해도 다른 슬롯 위치가 밀리지 않도록 구성했습니다.
+- 초기 구현은 Blocking TCP와 Text Protocol로 시작했지만, 네트워크 연결, 패킷 변환, 서비스 계층, Repository 계층을 분리해 추후 IOCP / Binary Packet 구조로 확장할 수 있도록 설계했습니다.
 
 ---
 

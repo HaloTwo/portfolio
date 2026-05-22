@@ -127,7 +127,7 @@
 | 프로젝트 | 엔진 | 장르 | 핵심 구현 | 링크 |
 |----------|------|------|-----------|------|
 | Project MORPG (개발 중) | Unity 6 | 3D MORPG | C++ TCP 서버 · MariaDB · 캐릭터 영속화 · 위치 동기화 | [GitHub](https://github.com/HaloTwo/Project_MORPG) |
-| 2DCombatProject | Unity 6 | 2D 플랫폼 액션 | 패링/가드 · Wave/Boss · Object Pool | [GitHub](https://github.com/HaloTwo/2DCombatProject) |
+| Crimson Slash | Unity 6 | 2D 플랫폼 액션 | 스킬/패링/가드 · Wave/Boss · Object Pool | [GitHub](https://github.com/HaloTwo/2DCombatProject) / [영상](https://youtu.be/WMT9xRD1Y8A)| 
 | Lies of P | Unreal 5 | 3D 액션 RPG | GAS · Weapon Trace · Lock-On · BT/EQS AI | [GitHub](https://github.com/HaloTwo/LOP) / [영상](https://youtu.be/6_0rvUXyf8w) |
 | WildTamer | Unity 6 | 2D RPG | 커스텀 군집 AI · 자동 전투 · Shader Fog | [GitHub](https://github.com/HaloTwo/WildTamer) / [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
 | Pokemon: Scarlet | Unity | 3D 턴제 RPG | State Pattern · Enemy AI · 데이터 구조 · 턴제 전투 | [GitHub](https://github.com/HaloTwo/Pokemon) / [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
@@ -182,9 +182,9 @@
 
 ---
 
-### 🔹 2DCombatProject (Unity 6, 2D Action)
+### 🔹 Crimson Slash (Unity 6, 2D Action)
 
-> Unity 6 기반 2D 플랫폼 액션 전투 프로토타입입니다.  
+> 2D 액션 로그라이트 장르의 전투 흐름을 모티브로 제작한 Unity 6 기반 전투 프로토타입입니다.  
 > 입력, 애니메이션 이벤트 기반 판정, 피격 피드백, 스킬, 웨이브, 미니보스, 버프 아이템, 오브젝트 풀링을 중심으로 짧은 플레이 안에서 액션 전투 루프가 보이도록 구현했습니다.
 
 - **기간:** 2026.05.16 ~ 2026.05.20 (5일)

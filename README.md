@@ -127,7 +127,7 @@
 | 프로젝트 | 엔진 | 장르 | 핵심 구현 | 링크 |
 |----------|------|------|-----------|------|
 | Project MORPG (개발 중) | Unity 6 | 3D MORPG | C++ TCP 서버 · MariaDB · 캐릭터 영속화 · 위치 동기화 | [GitHub](https://github.com/HaloTwo/Project_MORPG) |
-| 2DCombatProject | Unity 6 | 2D 플랫폼 액션 | Animation Event Hitbox · 4종 스킬 · 패링/가드 · Wave/Boss · Object Pool | [GitHub](https://github.com/HaloTwo/2DCombatProject) |
+| 2DCombatProject | Unity 6 | 2D 플랫폼 액션 | 패링/가드 · Wave/Boss · Object Pool | [GitHub](https://github.com/HaloTwo/2DCombatProject) |
 | Lies of P | Unreal 5 | 3D 액션 RPG | GAS · Weapon Trace · Lock-On · BT/EQS AI | [GitHub](https://github.com/HaloTwo/LOP) / [영상](https://youtu.be/6_0rvUXyf8w) |
 | WildTamer | Unity 6 | 2D RPG | 커스텀 군집 AI · 자동 전투 · Shader Fog | [GitHub](https://github.com/HaloTwo/WildTamer) / [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
 | Pokemon: Scarlet | Unity | 3D 턴제 RPG | State Pattern · Enemy AI · 데이터 구조 · 턴제 전투 | [GitHub](https://github.com/HaloTwo/Pokemon) / [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |

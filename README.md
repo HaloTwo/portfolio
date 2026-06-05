@@ -126,13 +126,13 @@
 
 | 프로젝트 | 엔진 | 장르 | 핵심 구현 | 링크 |
 |----------|------|------|-----------|------|
-| Project MORPG(개발중) | Unity 6 | 3D MORPG | C++ TCP 서버 · MariaDB · 캐릭터 영속화 · 동기화 | [GitHub](https://github.com/HaloTwo/Project_MORPG) |
+| Project MORPG(개발중) | Unity6 | 3D MORPG | C++ TCP 서버 · MariaDB · 캐릭터 영속화 · 동기화 | [GitHub](https://github.com/HaloTwo/Project_MORPG) |
 | Crimson Slash | Unity 6 | 2D 플랫포머 | 스킬/패링/가드 · Wave/Boss · Object Pool | [GitHub](https://github.com/HaloTwo/2DCombatProject) / [영상](https://youtu.be/WMT9xRD1Y8A)| 
-| Lies of P | Unreal 5 | 3D 액션 RPG | GAS · Weapon Trace · Lock-On · BT/EQS AI | [GitHub](https://github.com/HaloTwo/LOP) / [영상](https://youtu.be/6_0rvUXyf8w) |
-| WildTamer | Unity 6 | 2D RPG | 커스텀 군집 AI · 자동 전투 · Shader Fog | [GitHub](https://github.com/HaloTwo/WildTamer) / [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
-| Pokemon: Scarlet | Unity | 3D 턴제 RPG | State Pattern · Enemy AI · 데이터 구조 · 턴제 전투 | [GitHub](https://github.com/HaloTwo/Pokemon) / [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
-| Nier:Automata | Unity | 3D 액션 RPG | Enemy AI · Boss 패턴 · 전투 처리 · Phase 전환 | [GitHub](https://github.com/HaloTwo/Nier-Automata) / [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
-| Cuphead | Unity | 2D 액션 | Boss 패턴 · Coroutine · Projectile | [GitHub](https://github.com/HaloTwo/Cuphead) / [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
+| Lies of P | Unreal5 | 3D 싱글액션 | GAS · Weapon Trace · Lock-On · BT/EQS AI | [GitHub](https://github.com/HaloTwo/LOP) / [영상](https://youtu.be/6_0rvUXyf8w) |
+| WildTamer | Unity6 | 2D RPG | 커스텀 군집 AI · 자동 전투 · Shader Fog | [GitHub](https://github.com/HaloTwo/WildTamer) / [영상](https://youtube.com/shorts/mLd9Y7k4bvM) |
+| Pokemon: Scarlet | Unity | 3D 턴제RPG | State Pattern · Enemy AI · 데이터 구조 · 턴제 전투 | [GitHub](https://github.com/HaloTwo/Pokemon) / [영상](https://www.youtube.com/watch?v=s__GzKLjPf0) |
+| Nier:Automata | Unity | 3D 싱글액션 | Enemy AI · Boss 패턴 · 전투 처리 · Phase 전환 | [GitHub](https://github.com/HaloTwo/Nier-Automata) / [영상](https://www.youtube.com/watch?v=h8MQ959f8tk) |
+| Cuphead | Unity | 2D 플랫포머 | Boss 패턴 · Coroutine · Projectile | [GitHub](https://github.com/HaloTwo/Cuphead) / [영상](https://www.youtube.com/watch?v=5bR0k2nC6nk) |
 
 
 <details>
